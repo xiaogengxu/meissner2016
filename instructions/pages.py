@@ -87,6 +87,10 @@ class End_instruct(Page):
     def is_displayed(self):
         return self.participant.vars['time_instruction'] < 60
 
+    def js_vars(self):
+        username_value = self.participant.label
+        return dict(url='https://survey.maximiles.com/complete?p=73952_f6efdde9&m=%SPM_PANELIST_ID%')
+
 
 page_sequence = [Lang, Intro, Instruct0, Instruct1_borrow, Instruct1_save, Instruct2, Instruct3, Instruct4,
                  End_instruct]
