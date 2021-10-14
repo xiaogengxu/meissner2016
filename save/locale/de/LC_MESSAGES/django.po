@@ -1,0 +1,704 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-13 19:53+0300\n"
+"PO-Revision-Date: 2021-09-06 14:05+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#: .\save\pages.py:34 .\save\pages.py:70 .\save\pages.py:119
+#: .\save\pages.py:179 .\save\pages.py:250 .\save\pages.py:332
+#: .\save\pages.py:425 .\save\pages.py:529 .\save\pages.py:644
+msgid "Please decide the amount you would like to spend."
+msgstr "Bitte entscheiden Sie sich für den Betrag, den Sie ausgeben möchten."
+
+#: .\save\templates\save\Period1.html:11
+#: .\save\templates\save\Period10.html:11 .\save\templates\save\Period2.html:8
+#: .\save\templates\save\Period3.html:11 .\save\templates\save\Period4.html:11
+#: .\save\templates\save\Period5.html:11 .\save\templates\save\Period6.html:11
+#: .\save\templates\save\Period7.html:11 .\save\templates\save\Period8.html:11
+#: .\save\templates\save\Period9.html:11
+msgid "Life"
+msgstr "Leben"
+
+#: .\save\templates\save\Period1.html:11 .\save\templates\save\Period1.html:47
+#: .\save\templates\save\Period1.html:203
+#: .\save\templates\save\Period10.html:11
+#: .\save\templates\save\Period10.html:46
+#: .\save\templates\save\Period10.html:250
+#: .\save\templates\save\Period2.html:8 .\save\templates\save\Period2.html:44
+#: .\save\templates\save\Period2.html:206
+#: .\save\templates\save\Period3.html:11 .\save\templates\save\Period3.html:47
+#: .\save\templates\save\Period3.html:215
+#: .\save\templates\save\Period4.html:11 .\save\templates\save\Period4.html:47
+#: .\save\templates\save\Period4.html:221
+#: .\save\templates\save\Period5.html:11 .\save\templates\save\Period5.html:47
+#: .\save\templates\save\Period5.html:227
+#: .\save\templates\save\Period6.html:11 .\save\templates\save\Period6.html:47
+#: .\save\templates\save\Period6.html:233
+#: .\save\templates\save\Period7.html:11 .\save\templates\save\Period7.html:47
+#: .\save\templates\save\Period7.html:239
+#: .\save\templates\save\Period8.html:11 .\save\templates\save\Period8.html:47
+#: .\save\templates\save\Period8.html:245
+#: .\save\templates\save\Period9.html:11 .\save\templates\save\Period9.html:47
+#: .\save\templates\save\Period9.html:251
+#: .\save\templates\save\Start_to_S.html:29
+msgid "Period"
+msgstr "Periode"
+
+#: .\save\templates\save\Period1.html:25 .\save\templates\save\Period2.html:22
+#: .\save\templates\save\Period3.html:25 .\save\templates\save\Period4.html:25
+#: .\save\templates\save\Period5.html:25 .\save\templates\save\Period6.html:25
+#: .\save\templates\save\Period7.html:25 .\save\templates\save\Period8.html:25
+#: .\save\templates\save\Period9.html:25
+msgid ""
+"Please tap and move on the slider below to indicate how much you would like "
+"to spend in current Period"
+msgstr ""
+"Bitte tippen Sie den Schieberegler unten an und bewegen Sie ihn auf die Höhe "
+"Ihrer gewünschten Ausgaben in der laufenden Periode"
+
+#: .\save\templates\save\Period1.html:48
+#: .\save\templates\save\Period10.html:47
+#: .\save\templates\save\Period2.html:45 .\save\templates\save\Period3.html:48
+#: .\save\templates\save\Period4.html:48 .\save\templates\save\Period5.html:48
+#: .\save\templates\save\Period6.html:48 .\save\templates\save\Period7.html:48
+#: .\save\templates\save\Period8.html:48 .\save\templates\save\Period9.html:48
+msgid ""
+"Start period\n"
+"                    balance"
+msgstr "Startguthaben"
+
+#: .\save\templates\save\Period1.html:51
+#: .\save\templates\save\Period10.html:50
+#: .\save\templates\save\Period2.html:48 .\save\templates\save\Period3.html:51
+#: .\save\templates\save\Period4.html:51 .\save\templates\save\Period5.html:51
+#: .\save\templates\save\Period6.html:51 .\save\templates\save\Period7.html:51
+#: .\save\templates\save\Period8.html:51 .\save\templates\save\Period9.html:51
+msgid ""
+"Your points at the start of the period. This is equal to End Period Wealth "
+"of the previous period."
+msgstr ""
+"Ihre Punkte zu Beginn der Periode. Dies ist gleich dem Endguthaben der "
+"vorherigen Periode."
+
+#: .\save\templates\save\Period1.html:55
+#: .\save\templates\save\Period1.html:179
+#: .\save\templates\save\Period10.html:54
+#: .\save\templates\save\Period10.html:226
+#: .\save\templates\save\Period2.html:52
+#: .\save\templates\save\Period2.html:182
+#: .\save\templates\save\Period3.html:55
+#: .\save\templates\save\Period3.html:191
+#: .\save\templates\save\Period4.html:55
+#: .\save\templates\save\Period4.html:197
+#: .\save\templates\save\Period5.html:55
+#: .\save\templates\save\Period5.html:203
+#: .\save\templates\save\Period6.html:55
+#: .\save\templates\save\Period6.html:209
+#: .\save\templates\save\Period7.html:55
+#: .\save\templates\save\Period7.html:215
+#: .\save\templates\save\Period8.html:55
+#: .\save\templates\save\Period8.html:221
+#: .\save\templates\save\Period9.html:55
+#: .\save\templates\save\Period9.html:227
+msgid "Income"
+msgstr "Einkommen"
+
+#: .\save\templates\save\Period1.html:58
+#: .\save\templates\save\Period10.html:57
+#: .\save\templates\save\Period2.html:55 .\save\templates\save\Period3.html:58
+#: .\save\templates\save\Period4.html:58 .\save\templates\save\Period5.html:58
+#: .\save\templates\save\Period6.html:58 .\save\templates\save\Period7.html:58
+#: .\save\templates\save\Period8.html:58 .\save\templates\save\Period9.html:58
+msgid "Your points earned in the period"
+msgstr "Ihr Einkommen (in Punkten)"
+
+#: .\save\templates\save\Period1.html:62
+#: .\save\templates\save\Period1.html:180
+#: .\save\templates\save\Period10.html:61
+#: .\save\templates\save\Period10.html:227
+#: .\save\templates\save\Period2.html:59
+#: .\save\templates\save\Period2.html:183
+#: .\save\templates\save\Period3.html:62
+#: .\save\templates\save\Period3.html:192
+#: .\save\templates\save\Period4.html:62
+#: .\save\templates\save\Period4.html:198
+#: .\save\templates\save\Period5.html:62
+#: .\save\templates\save\Period5.html:204
+#: .\save\templates\save\Period6.html:62
+#: .\save\templates\save\Period6.html:210
+#: .\save\templates\save\Period7.html:62
+#: .\save\templates\save\Period7.html:216
+#: .\save\templates\save\Period8.html:62
+#: .\save\templates\save\Period8.html:222
+#: .\save\templates\save\Period9.html:62
+#: .\save\templates\save\Period9.html:228
+msgid "Spending"
+msgstr "Ausgaben"
+
+#: .\save\templates\save\Period1.html:65
+#: .\save\templates\save\Period10.html:64
+#: .\save\templates\save\Period2.html:62 .\save\templates\save\Period3.html:65
+#: .\save\templates\save\Period4.html:65 .\save\templates\save\Period5.html:65
+#: .\save\templates\save\Period6.html:65 .\save\templates\save\Period7.html:65
+#: .\save\templates\save\Period8.html:65 .\save\templates\save\Period9.html:65
+msgid "Points you decided to spend (with the slider above) in the period"
+msgstr "Ausgaben (in Punkten) (gemäß Schieberegler)"
+
+#: .\save\templates\save\Period1.html:69
+#: .\save\templates\save\Period10.html:68
+#: .\save\templates\save\Period2.html:66 .\save\templates\save\Period3.html:69
+#: .\save\templates\save\Period4.html:69 .\save\templates\save\Period5.html:69
+#: .\save\templates\save\Period6.html:69 .\save\templates\save\Period7.html:69
+#: .\save\templates\save\Period8.html:69 .\save\templates\save\Period9.html:69
+msgid "End period balance"
+msgstr "Endguthaben"
+
+#: .\save\templates\save\Period1.html:72
+#: .\save\templates\save\Period10.html:71
+#: .\save\templates\save\Period2.html:69 .\save\templates\save\Period3.html:72
+#: .\save\templates\save\Period4.html:72 .\save\templates\save\Period5.html:72
+#: .\save\templates\save\Period6.html:72 .\save\templates\save\Period7.html:72
+#: .\save\templates\save\Period8.html:72 .\save\templates\save\Period9.html:72
+msgid ""
+"Points you own at the end of the period. The value is equal to Start Period "
+"Wealth + Income - Spending."
+msgstr ""
+"Punkte, die Sie am Ende der jeweiligen Periode besitzen. Der Wert ist gleich "
+"dem Startguthaben plus Einkommen minus Ausgaben."
+
+#: .\save\templates\save\Period1.html:76
+#: .\save\templates\save\Period10.html:75
+#: .\save\templates\save\Period2.html:73 .\save\templates\save\Period3.html:76
+#: .\save\templates\save\Period4.html:76 .\save\templates\save\Period5.html:76
+#: .\save\templates\save\Period6.html:76 .\save\templates\save\Period7.html:76
+#: .\save\templates\save\Period8.html:76 .\save\templates\save\Period9.html:76
+msgid "Reward (in Eurocents)"
+msgstr "Ihre Belohnung (in Eurocents)"
+
+#: .\save\templates\save\Period1.html:79
+#: .\save\templates\save\Period10.html:78
+#: .\save\templates\save\Period2.html:76 .\save\templates\save\Period3.html:79
+#: .\save\templates\save\Period4.html:79 .\save\templates\save\Period5.html:79
+#: .\save\templates\save\Period6.html:79 .\save\templates\save\Period7.html:79
+#: .\save\templates\save\Period8.html:79 .\save\templates\save\Period9.html:79
+msgid ""
+"Eurocents purchased as rewards in the period, based on your points Spending "
+"decision. For more information, click the button ´´Spending´´ at bottom of "
+"the page."
+msgstr ""
+"Eurocents, die Sie in der jeweiligen Periode als Belohnung bekommen, "
+"basierend auf Ihrer Entscheidung über die Höhe der Ausgaben (Schieberegler). "
+"Für mehr Informationen klicken Sie auf die Registerkarte \"Ausgaben\" unten "
+"auf der Seite."
+
+#: .\save\templates\save\Period1.html:97
+#: .\save\templates\save\Period1.html:103
+#: .\save\templates\save\Period1.html:106
+#: .\save\templates\save\Period1.html:109
+#: .\save\templates\save\Period1.html:112
+#: .\save\templates\save\Period1.html:115
+#: .\save\templates\save\Period1.html:118
+#: .\save\templates\save\Period1.html:121
+#: .\save\templates\save\Period1.html:124
+#: .\save\templates\save\Period2.html:103
+#: .\save\templates\save\Period2.html:109
+#: .\save\templates\save\Period2.html:112
+#: .\save\templates\save\Period2.html:115
+#: .\save\templates\save\Period2.html:118
+#: .\save\templates\save\Period2.html:121
+#: .\save\templates\save\Period2.html:124
+#: .\save\templates\save\Period2.html:127
+#: .\save\templates\save\Period3.html:115
+#: .\save\templates\save\Period3.html:121
+#: .\save\templates\save\Period3.html:124
+#: .\save\templates\save\Period3.html:127
+#: .\save\templates\save\Period3.html:130
+#: .\save\templates\save\Period3.html:133
+#: .\save\templates\save\Period3.html:136
+#: .\save\templates\save\Period4.html:124
+#: .\save\templates\save\Period4.html:130
+#: .\save\templates\save\Period4.html:133
+#: .\save\templates\save\Period4.html:136
+#: .\save\templates\save\Period4.html:139
+#: .\save\templates\save\Period4.html:142
+#: .\save\templates\save\Period5.html:133
+#: .\save\templates\save\Period5.html:139
+#: .\save\templates\save\Period5.html:142
+#: .\save\templates\save\Period5.html:145
+#: .\save\templates\save\Period5.html:148
+#: .\save\templates\save\Period6.html:142
+#: .\save\templates\save\Period6.html:148
+#: .\save\templates\save\Period6.html:151
+#: .\save\templates\save\Period6.html:154
+#: .\save\templates\save\Period7.html:151
+#: .\save\templates\save\Period7.html:157
+#: .\save\templates\save\Period7.html:160
+#: .\save\templates\save\Period8.html:160
+#: .\save\templates\save\Period8.html:166
+#: .\save\templates\save\Period9.html:169
+msgid "or"
+msgstr "oder"
+
+#: .\save\templates\save\Period1.html:127
+#: .\save\templates\save\Period10.html:174
+#: .\save\templates\save\Period2.html:130
+#: .\save\templates\save\Period3.html:139
+#: .\save\templates\save\Period4.html:145
+#: .\save\templates\save\Period5.html:151
+#: .\save\templates\save\Period6.html:157
+#: .\save\templates\save\Period7.html:163
+#: .\save\templates\save\Period8.html:169
+#: .\save\templates\save\Period9.html:175
+msgid "Total life reward"
+msgstr "Belohnung in diesem Leben"
+
+#: .\save\templates\save\Period1.html:130
+#: .\save\templates\save\Period10.html:177
+#: .\save\templates\save\Period2.html:133
+#: .\save\templates\save\Period3.html:142
+#: .\save\templates\save\Period4.html:148
+#: .\save\templates\save\Period5.html:154
+#: .\save\templates\save\Period6.html:160
+#: .\save\templates\save\Period7.html:166
+#: .\save\templates\save\Period8.html:172
+#: .\save\templates\save\Period9.html:178
+msgid ""
+"Sum of Eurocents in all periods you have played. If this sum is a negative "
+"number, it will be adjusted to zero."
+msgstr ""
+"Summe der Eurocents in allen Perioden, die Sie gespielt haben. Wenn diese "
+"Summe eine negative Zahl ist, wird sie auf 0 gesetzt."
+
+#: .\save\templates\save\Period1.html:178
+#: .\save\templates\save\Period10.html:225
+#: .\save\templates\save\Period2.html:181
+#: .\save\templates\save\Period3.html:190
+#: .\save\templates\save\Period4.html:196
+#: .\save\templates\save\Period5.html:202
+#: .\save\templates\save\Period6.html:208
+#: .\save\templates\save\Period7.html:214
+#: .\save\templates\save\Period8.html:220
+#: .\save\templates\save\Period9.html:226
+msgid "Instruction"
+msgstr "Anweisung"
+
+#: .\save\templates\save\Period1.html:181
+#: .\save\templates\save\Period10.html:228
+#: .\save\templates\save\Period2.html:184
+#: .\save\templates\save\Period3.html:193
+#: .\save\templates\save\Period4.html:199
+#: .\save\templates\save\Period5.html:205
+#: .\save\templates\save\Period6.html:211
+#: .\save\templates\save\Period7.html:217
+#: .\save\templates\save\Period8.html:223
+#: .\save\templates\save\Period9.html:229
+msgid "Account balance"
+msgstr "Guthaben"
+
+#: .\save\templates\save\Period1.html:182
+#: .\save\templates\save\Period10.html:229
+#: .\save\templates\save\Period2.html:185
+#: .\save\templates\save\Period3.html:194
+#: .\save\templates\save\Period4.html:200
+#: .\save\templates\save\Period5.html:206
+#: .\save\templates\save\Period6.html:212
+#: .\save\templates\save\Period7.html:218
+#: .\save\templates\save\Period8.html:224
+#: .\save\templates\save\Period9.html:230
+msgid "Your reward"
+msgstr "Ihre Belohnung"
+
+#: .\save\templates\save\Period1.html:186
+#: .\save\templates\save\Period10.html:233
+#: .\save\templates\save\Period2.html:189
+#: .\save\templates\save\Period3.html:198
+#: .\save\templates\save\Period4.html:204
+#: .\save\templates\save\Period5.html:210
+#: .\save\templates\save\Period6.html:216
+#: .\save\templates\save\Period7.html:222
+#: .\save\templates\save\Period8.html:228
+#: .\save\templates\save\Period9.html:234
+msgid "Please click the other tabs to check the instruction if you want."
+msgstr ""
+"Bitte klicken Sie auf die anderen Registerkarten, um die Anweisungen zu "
+"überprüfen, wenn Sie möchten."
+
+#: .\save\templates\save\Period1.html:190
+#: .\save\templates\save\Period10.html:237
+#: .\save\templates\save\Period2.html:193
+#: .\save\templates\save\Period3.html:202
+#: .\save\templates\save\Period4.html:208
+#: .\save\templates\save\Period5.html:214
+#: .\save\templates\save\Period6.html:220
+#: .\save\templates\save\Period7.html:226
+#: .\save\templates\save\Period8.html:232
+#: .\save\templates\save\Period9.html:238
+msgid ""
+"In each period, you will earn Income (represented in points).\n"
+"            This income can be high or low as shown in the table below."
+msgstr ""
+"In jeder Periode werden Sie ein Einkommen (in Punkten) erhalten. Dieses "
+"Einkommen wird entweder hoch oder tief sein, wie die Tabelle unten zeigt."
+
+#: .\save\templates\save\Period1.html:204
+#: .\save\templates\save\Period10.html:251
+#: .\save\templates\save\Period2.html:207
+#: .\save\templates\save\Period3.html:216
+#: .\save\templates\save\Period4.html:222
+#: .\save\templates\save\Period5.html:228
+#: .\save\templates\save\Period6.html:234
+#: .\save\templates\save\Period7.html:240
+#: .\save\templates\save\Period8.html:246
+#: .\save\templates\save\Period9.html:252
+#: .\save\templates\save\Start_to_S.html:30
+msgid "Low income (points)"
+msgstr "Tiefes Einkommen (in Punkten)"
+
+#: .\save\templates\save\Period1.html:205
+#: .\save\templates\save\Period10.html:252
+#: .\save\templates\save\Period2.html:208
+#: .\save\templates\save\Period3.html:217
+#: .\save\templates\save\Period4.html:223
+#: .\save\templates\save\Period5.html:229
+#: .\save\templates\save\Period6.html:235
+#: .\save\templates\save\Period7.html:241
+#: .\save\templates\save\Period8.html:247
+#: .\save\templates\save\Period9.html:253
+#: .\save\templates\save\Start_to_S.html:31
+msgid "High income (points)"
+msgstr "Hohes Einkommen (in Punkten)"
+
+#: .\save\templates\save\Period1.html:241
+#: .\save\templates\save\Period10.html:288
+#: .\save\templates\save\Period2.html:244
+#: .\save\templates\save\Period3.html:253
+#: .\save\templates\save\Period4.html:259
+#: .\save\templates\save\Period5.html:265
+#: .\save\templates\save\Period6.html:271
+#: .\save\templates\save\Period7.html:277
+#: .\save\templates\save\Period8.html:283
+#: .\save\templates\save\Period9.html:289
+msgid ""
+"Whether you get a high or a low income is decided by the computer as "
+"illustrated below.\n"
+"        The chances that a high or a low income is selected are equal."
+msgstr ""
+"Ob Sie in einer Periode ein hohes oder ein tiefes Einkommen erhalten, "
+"entscheidet der Computer (siehe Darstellung unten). Die Chancen, dass Sie "
+"ein tiefes oder ein hohes Einkommen zugeteilt bekommen, sind gleich hoch."
+
+#: .\save\templates\save\Period1.html:305
+#: .\save\templates\save\Period10.html:352
+#: .\save\templates\save\Period2.html:308
+#: .\save\templates\save\Period3.html:317
+#: .\save\templates\save\Period4.html:323
+#: .\save\templates\save\Period5.html:329
+#: .\save\templates\save\Period6.html:335
+#: .\save\templates\save\Period7.html:341
+#: .\save\templates\save\Period8.html:347
+#: .\save\templates\save\Period9.html:353
+msgid ""
+"In each period of your life, you will decide how much to spend (in points).\n"
+"            Your <b>Spending</b> (in points) in each period determines your "
+"<b>Rewards</b> (in Eurocents)\n"
+"            for that period according to the blue line in the graph below."
+msgstr ""
+"In jeder Periode Ihres Lebens werden Sie entscheiden, wie viele Punkte Sie "
+"ausgeben wollen. Ihre <b>Ausgaben</b> (in Punkten) in einer Periode "
+"bestimmen Ihre <b>Belohnung</b> (in Eurocents) für diese Periode wie die "
+"blaue Kurve unten zeigt."
+
+#: .\save\templates\save\Period1.html:312
+#: .\save\templates\save\Period10.html:359
+#: .\save\templates\save\Period2.html:315
+#: .\save\templates\save\Period3.html:324
+#: .\save\templates\save\Period4.html:330
+#: .\save\templates\save\Period5.html:336
+#: .\save\templates\save\Period6.html:342
+#: .\save\templates\save\Period7.html:348
+#: .\save\templates\save\Period8.html:354
+#: .\save\templates\save\Period9.html:360
+msgid ""
+"For example, if you decide to spend 150 points in one period,\n"
+"            your Reward for that period will be 364 Eurocents."
+msgstr ""
+"Zum Beispiel, wenn Sie in einer Periode 150 Punkte ausgeben, wird Ihre "
+"Belohnung für diese Periode 364 Eurocents sein."
+
+#: .\save\templates\save\Period1.html:315
+#: .\save\templates\save\Period10.html:362
+#: .\save\templates\save\Period2.html:318
+#: .\save\templates\save\Period3.html:327
+#: .\save\templates\save\Period4.html:333
+#: .\save\templates\save\Period5.html:339
+#: .\save\templates\save\Period6.html:345
+#: .\save\templates\save\Period7.html:351
+#: .\save\templates\save\Period8.html:357
+#: .\save\templates\save\Period9.html:363
+msgid ""
+"In each period, you will be able to see what happens to your <b>Eurocent "
+"Rewards</b> when you change your <b>Spending</b>."
+msgstr ""
+"In jeder Periode werden Sie sehen, wie sich Ihre <b>Belohnung</b> (in "
+"Eurocents) ändert, wenn Sie die <b>Ausgaben</b> ändern."
+
+#: .\save\templates\save\Period1.html:328
+#: .\save\templates\save\Period10.html:375
+#: .\save\templates\save\Period2.html:331
+#: .\save\templates\save\Period3.html:340
+#: .\save\templates\save\Period4.html:346
+#: .\save\templates\save\Period5.html:352
+#: .\save\templates\save\Period6.html:358
+#: .\save\templates\save\Period7.html:364
+#: .\save\templates\save\Period8.html:370
+#: .\save\templates\save\Period9.html:376
+msgid ""
+"For each period in your life, we calculate your balance (in points):\n"
+"        <br>\n"
+"        <b>$$ \\text{End Balance}=\\text{Start Balance}+\\text{Income}-\\text"
+"{Spending} $$</b>"
+msgstr ""
+"Für jede Periode Ihres simulierten Lebens berechnen wir Ihr Guthaben (in "
+"Punkten) wie folgt:\n"
+"    <br>\n"
+"    <b>$$ \\text{Endguthaben}=\\text{Startguthaben plus Einkommen minus "
+"Ausgaben} $$</b>"
+
+#: .\save\templates\save\Period1.html:332
+#: .\save\templates\save\Period10.html:379
+#: .\save\templates\save\Period2.html:335
+#: .\save\templates\save\Period3.html:344
+#: .\save\templates\save\Period4.html:350
+#: .\save\templates\save\Period5.html:356
+#: .\save\templates\save\Period6.html:362
+#: .\save\templates\save\Period7.html:368
+#: .\save\templates\save\Period8.html:374
+#: .\save\templates\save\Period9.html:380
+msgid ""
+"In the first period, the <b>Start Balance</b> is 0.\n"
+"            In each of the following periods, the <b>Start Balance</b> is "
+"the <b>End Balance</b> of the previous period."
+msgstr ""
+"In der ersten Periode ist Ihr <b>Startguthaben</b> 0. In jeder folgenden "
+"Perioden entspricht das <b>Startguthaben</b> dem <b>Endguthaben</b> der "
+"vorherigen Periode."
+
+#: .\save\templates\save\Period1.html:335
+#: .\save\templates\save\Period10.html:382
+#: .\save\templates\save\Period2.html:338
+#: .\save\templates\save\Period3.html:347
+#: .\save\templates\save\Period4.html:353
+#: .\save\templates\save\Period5.html:359
+#: .\save\templates\save\Period6.html:365
+#: .\save\templates\save\Period7.html:371
+#: .\save\templates\save\Period8.html:377
+#: .\save\templates\save\Period9.html:383
+msgid ""
+"During your life, your <b>End Balance</b> can be positive or negative.\n"
+"            In the last period of each life (period 10), your <b>End "
+"Balance</b> must be zero.\n"
+"            For this reason, your <b>Spending</b> in period 10 will be "
+"calculated automatically."
+msgstr ""
+"Im Laufe Ihres simulierten Lebens kann Ihr <b>Endguthaben</b> positiv oder "
+"negativ sein. In der letzten Periode (Periode 10) muss Ihr <b>Endguthaben</"
+"b> gleich Null sein. Aus diesem Grund werden Ihre <b>Ausgaben</b> in Periode "
+"10 automatisch berechnet."
+
+#: .\save\templates\save\Period1.html:343
+#: .\save\templates\save\Period10.html:390
+#: .\save\templates\save\Period2.html:346
+#: .\save\templates\save\Period3.html:355
+#: .\save\templates\save\Period4.html:361
+#: .\save\templates\save\Period5.html:367
+#: .\save\templates\save\Period6.html:373
+#: .\save\templates\save\Period7.html:379
+#: .\save\templates\save\Period8.html:385
+#: .\save\templates\save\Period9.html:391
+msgid ""
+"In each period, your <b>Reward</b> increases with your <b>Spending</b> as "
+"explained before.\n"
+"            However, if in the last period of your life (period 10) your "
+"<b>End Balance</b> is <b>negative</b>,\n"
+"            your <b>Eurocent Reward</b> in this period will be <b>negative</"
+"b>,\n"
+"            even if your <b>Spending</b> is 0 (see graph below)."
+msgstr ""
+"In jeder Periode erhöht sich Ihre <b>Belohnung</b> mit Ihren <b>Ausgaben</"
+"b>, wie zuvor erklärt. Wenn aber in der letzten Periode (Periode 10) Ihr "
+"<b>Endguthaben</b> <b>negativ</b> ist, wird Ihre <b>Belohnung</b> für diese "
+"Periode <b>negativ</b> sein (siehe Abbildung unten), auch wenn Ihre "
+"<b>Ausgaben</b> in dieser Periode 0 sind."
+
+#: .\save\templates\save\Period1.html:350
+#: .\save\templates\save\Period10.html:397
+#: .\save\templates\save\Period2.html:353
+#: .\save\templates\save\Period3.html:362
+#: .\save\templates\save\Period4.html:368
+#: .\save\templates\save\Period5.html:374
+#: .\save\templates\save\Period6.html:380
+#: .\save\templates\save\Period7.html:386
+#: .\save\templates\save\Period8.html:392
+#: .\save\templates\save\Period9.html:398
+msgid ""
+"For example, if your End Balance in Period 10 is -60 points,\n"
+"            your Reward for that period will be -904 Eurocents."
+msgstr ""
+"Zum Beispiel wenn Ihr Endguthaben am Ende der letzten Periode -60 Punkte "
+"beträgt, wird Ihre Belohnung für diese Periode -904 Punkte sein."
+
+#: .\save\templates\save\Period1.html:353
+#: .\save\templates\save\Period10.html:400
+#: .\save\templates\save\Period2.html:356
+#: .\save\templates\save\Period3.html:365
+#: .\save\templates\save\Period4.html:371
+#: .\save\templates\save\Period5.html:377
+#: .\save\templates\save\Period6.html:383
+#: .\save\templates\save\Period7.html:389
+#: .\save\templates\save\Period8.html:395
+#: .\save\templates\save\Period9.html:401
+msgid ""
+"To determine your Reward for the Investment Game, for each of your lives,\n"
+"            we first sum the <b>Eurocent Rewards</b> over the 10 periods.\n"
+"            Then, at the end of the Investment Game, we let the computer "
+"randomly choose one of your lives.\n"
+"            The <b>Eurocent Rewards</b> that you have gathered in the "
+"selected life will be your additional compensation."
+msgstr ""
+"Um Ihre Belohnung für das Investitionsspiel zu ermitteln, addieren wir "
+"zunächst für jedes Ihrer Leben die <b>Eurocent-Belohnungen</b> über die 10 "
+"Perioden. Am Ende des Investitionsspiels lassen wir den Computer nach dem "
+"Zufallsprinzip eines Ihrer Leben auswählen. Die <b>Eurocent-Belohnung</b>, "
+"die Sie in dem gewählten Leben gesammelt haben, ist Ihre zusätzliche "
+"Vergütung."
+
+#: .\save\templates\save\Period10.html:25
+#, python-format
+msgid ""
+"This is the last period of Life %(round_num)s.\n"
+"        In the last period, you need to spend the initial wealth of the "
+"period and the income you receive in this period.\n"
+"        Thus, you spend %(spend_save10)s points and get %(points_save10)s "
+"Eurocents in Period 10.\n"
+"        <b>If the current Life %(round_num)s is chosen to determine your "
+"additional compensation, your reward will be\n"
+"        <span id=\"demo_points_save_total1\"></span> Eurocents</b>."
+msgstr ""
+"Dies ist die letzte Periode des Lebens %(round_num)s. In der letzten Periode "
+"müssen Sie das Startguthaben und das Einkommen, das Sie in dieser Periode "
+"erhalten, ausgeben. Sie geben also %(spend_save10)s Punkte aus und erhalten %"
+"(points_save10)s Eurocents als <b>Belohnung</b> in dieser Periode."
+
+#: .\save\templates\save\Start.html:11
+msgid "Now you start the Investment Game."
+msgstr "Bitte beginnen Sie jetzt mit dem Investitionsspiel."
+
+#: .\save\templates\save\Start_to_S.html:9
+msgid "Change on Income per period"
+msgstr "Veränderung des Einkommens pro Periode"
+
+#: .\save\templates\save\Start_to_S.html:12
+msgid ""
+"There will be a simple rule change for your next two lives.\n"
+"        Your Income per period will follow a new schedule shown in the table "
+"below.\n"
+"        All other rules and features remain unchanged, including your "
+"financial compensation."
+msgstr ""
+"Für die nächsten zwei Leben gibt es eine einfache Regeländerung. Ihr "
+"Einkommen pro Periode wird einem neuen Plan folgen, der in der "
+"untenstehenden Tabelle aufgeführt ist. Alle anderen Regeln und Merkmale "
+"bleiben unverändert, einschließlich Ihrer finanziellen Belohnung."
+
+#: .\save\templates\save\Start_to_S.html:68
+msgid "Next"
+msgstr "Weiter"
+
+#: .\save\templates\save\Summary.html:15
+#: .\save\templates\save\Summary_to_S.html:15
+msgid "Reminder"
+msgstr "Zusammenfassung"
+
+#: .\save\templates\save\Summary.html:19
+msgid "Here is the summary of the first two lives."
+msgstr "Dies ist die Zusammenfassung Ihrer ersten beiden Leben."
+
+#: .\save\templates\save\Summary.html:23
+#, python-format
+msgid ""
+"If Life 1 is chosen by the computer at the end of the game,\n"
+"        your additional compensation will be %(points_total1)s Eurocents."
+msgstr ""
+"Falls Leben 1 vom Computer später gewählt wird, wird Ihre Vergütung, welche "
+"Sie zusätzlich für Ihre Teilnahme erhalten, %(points_total1)s Eurocents "
+"betragen."
+
+#: .\save\templates\save\Summary.html:28
+#, python-format
+msgid ""
+"If Life 2 is chosen by the computer at the end of the game,\n"
+"        your additional compensation will be %(points_total2)s Eurocents."
+msgstr ""
+"Falls Leben 2 vom Computer später gewählt wird, wird Ihre Vergütung, welche "
+"Sie zusätzlich für Ihre Teilnahme erhalten, %(points_total2)s Eurocents "
+"betragen."
+
+#: .\save\templates\save\Summary_to_S.html:19
+msgid "Here is the summary of all lives."
+msgstr "Dies ist die Zusammenfassung aller Leben."
+
+#: .\save\templates\save\Summary_to_S.html:23
+#, python-format
+msgid ""
+"If Life 1 is chosen by the computer at the end of the game,\n"
+"        your additional compensation will be %(points_total1_borrow)s "
+"Eurocents."
+msgstr ""
+"Falls Leben 1 vom Computer später gewählt wird, wird Ihre Vergütung, welche "
+"Sie zusätzlich für Ihre Teilnahme erhalten, %(points_total1_borrow)s "
+"Eurocents betragen."
+
+#: .\save\templates\save\Summary_to_S.html:28
+#, python-format
+msgid ""
+"If Life 2 is chosen by the computer at the end of the game,\n"
+"        your additional compensation will be %(points_total2_borrow)s "
+"Eurocents."
+msgstr ""
+"Falls Leben 2 vom Computer später gewählt wird, wird Ihre Vergütung, welche "
+"Sie zusätzlich für Ihre Teilnahme erhalten, %(points_total2_borrow)s "
+"Eurocents betragen."
+
+#: .\save\templates\save\Summary_to_S.html:33
+#, python-format
+msgid ""
+"If Life 3 is chosen by the computer at the end of the game,\n"
+"        your additional compensation will be %(points_total1)s Eurocents."
+msgstr ""
+"Falls Leben 3 vom Computer später gewählt wird, wird Ihre Vergütung, welche "
+"Sie zusätzlich für Ihre Teilnahme erhalten, %(points_total1)s Eurocents "
+"betragen."
+
+#: .\save\templates\save\Summary_to_S.html:38
+#, python-format
+msgid ""
+"If Life 4 is chosen by the computer at the end of the game,\n"
+"        your additional compensation will be %(points_total2)s Eurocents."
+msgstr ""
+"Falls Leben 4 vom Computer später gewählt wird, wird Ihre Vergütung, welche "
+"Sie zusätzlich für Ihre Teilnahme erhalten, %(points_total2)s Eurocents "
+"betragen."

@@ -1,0 +1,123 @@
+{% extends "trial_save/Page.html" %}
+{% load otree i18n %}
+
+{% block title %}
+{% endblock %}
+
+{% block content %}
+
+    <link href="{% static 'nouislider.min.css' %}" rel="stylesheet">
+    <script src="{% static 'wNumb.min.js' %}"></script>
+    <script src="{% static 'nouislider.min.js' %}"></script>
+
+    <p>
+    <br>
+        {% blocktrans %}Before you advance to the live round, you need to complete a quiz.{% endblocktrans %}
+    </p>
+
+    <br>
+
+    {% next_button %}
+
+    <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="26"
+            aria-valuemin="0" aria-valuemax="100" style="width:26%">
+            <span class="sr-only">26% Complete</span>
+        </div>
+    </div>
+
+    <script>
+        // Show and close instruction when click the buttons and button value changes
+        var btn1 = document.getElementById('btn1');
+        var html_file = document.getElementById('id_html');
+        var btn2 = document.getElementById('btn2');
+        var btn2_div = document.getElementById('btn2_div')
+        html_file.style.display = 'none';
+        btn2.style.display = 'none';
+        btn2_div.style.display = 'none';
+
+        document.getElementById('btn1').addEventListener('click', myfun);
+        function myfun() {
+            if (html_file.style.display !== 'none') {
+                html_file.style.display = 'none';
+                btn1.value = 'Review instructions';
+                btn2.style.display = 'none';
+                btn2_div.style.display = 'none';
+            }
+            else {
+                html_file.style.display = 'block';
+                btn1.value = 'Close the instructions';
+                btn2.style.display = 'block';
+                btn2_div.style.display = 'block';
+            }
+        }
+
+        document.getElementById('btn2').addEventListener('click', myfun1);
+        function myfun1() {
+            html_file.style.display = 'none';
+            btn1.value = 'Review instructions';
+            btn2.style.display = 'none';
+            btn2_div.style.display = 'none';
+        }
+    </script>
+
+    <style>
+        .otree-title {
+            display: none;
+        }
+        .otree-form-errors {
+            visibility: hidden;
+            display: none;
+        }
+        .noUi-slide {
+            width: 100%; /* Width of the outside container */
+        }
+
+        /* The value of handle shows only when touching the handle. */
+        .noUi-tooltip {
+            display: none;
+        }
+        .noUi-active .noUi-tooltip {
+            display: block;
+        }
+        .noUi-handle {
+            display: none;
+        }
+        .noUi-pips {
+            top: 9px;
+        }
+        .noUi-value {
+            margin-top: -8px;
+        }
+        .noUi-marker-horizontal.noUi-marker-large {
+            height: 10px;
+        }
+        #customers {
+          {#font-family: Arial, Helvetica, sans-serif;#}
+          border-collapse: collapse;
+          width: 50%;
+        }
+
+        #customers td, #customers th {
+            border: 1px solid #ddd;
+            border-left: none;
+            border-right: none;
+            padding: 8px;
+            text-align: center;
+            width: 50%;
+        }
+
+        #customers tr:nth-child(even){background-color: #f2f2f2;}
+
+        #customers tr:hover {background-color: #ddd;}
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: center;
+        }
+    </style>
+
+{% endblock %}
+
+

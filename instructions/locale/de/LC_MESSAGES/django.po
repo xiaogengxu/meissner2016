@@ -1,0 +1,286 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-13 19:53+0300\n"
+"PO-Revision-Date: 2021-10-13 20:08+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#: .\instructions\models.py:66
+msgid "Do you want to start the simulation?"
+msgstr "Möchten Sie die Simulation jetzt starten?"
+
+#: .\instructions\models.py:67
+msgid "Yes"
+msgstr "Ja"
+
+#: .\instructions\models.py:67
+msgid "No"
+msgstr "Nein"
+
+#: .\instructions\templates\instructions\End_instruct.html:9
+msgid "Ineligible to participate"
+msgstr "Teilnahmeausschluss"
+
+#: .\instructions\templates\instructions\End_instruct.html:11
+msgid ""
+"You advanced through the Instruction screens faster than a skilled reader "
+"would take to read them carefully.\n"
+"        Participants must pay attention and understand the Instructions in "
+"order to participate."
+msgstr ""
+"Wir danken Ihnen für Ihre Teilnahme. Leider brauchten Sie für die Aufgaben "
+"weniger als ein geübter Leser brauchen würde, um die Aufgaben sorgfältig zu "
+"lesen."
+
+#: .\instructions\templates\instructions\End_instruct.html:14
+msgid "Therefore, we regret to inform that you are unable to continue."
+msgstr ""
+"Wir bedauern, dass wir Sie deshalb leider ausschließen müssen und Sie nicht "
+"weiterspielen können."
+
+#: .\instructions\templates\instructions\End_instruct.html:16
+msgid "Finish"
+msgstr "Fertig"
+
+#: .\instructions\templates\instructions\Instruct0.html:11
+msgid "The Investment Game"
+msgstr "Das Investitionsspiel"
+
+#: .\instructions\templates\instructions\Instruct0.html:14
+msgid ""
+"In this game, you will make financial decisions during a simulated life.\n"
+"        Each life consists of 10 periods. You will have four lives."
+msgstr ""
+"In diesem Spiel werden Sie finanzielle Entscheidungen während eines "
+"simulierten Lebens treffen. Jedes Leben besteht aus 10 Perioden. Sie werden "
+"4 Leben haben."
+
+#: .\instructions\templates\instructions\Instruct1_borrow.html:11
+#: .\instructions\templates\instructions\Instruct1_save.html:11
+msgid "Income"
+msgstr "Einkommen"
+
+#: .\instructions\templates\instructions\Instruct1_borrow.html:14
+#: .\instructions\templates\instructions\Instruct1_save.html:14
+msgid ""
+"In each period, you will earn Income (represented in points).\n"
+"        This income can be high or low as shown in the table below."
+msgstr ""
+"In jeder Periode werden Sie ein Einkommen (in Punkten) erhalten. Dieses "
+"Einkommen wird entweder hoch oder tief sein, wie die Tabelle unten zeigt."
+
+#: .\instructions\templates\instructions\Instruct1_borrow.html:27
+#: .\instructions\templates\instructions\Instruct1_save.html:27
+msgid "Period"
+msgstr "Periode"
+
+#: .\instructions\templates\instructions\Instruct1_borrow.html:28
+#: .\instructions\templates\instructions\Instruct1_save.html:28
+msgid "Low income (points)"
+msgstr "Tiefes Einkommen (in Punkten)"
+
+#: .\instructions\templates\instructions\Instruct1_borrow.html:29
+#: .\instructions\templates\instructions\Instruct1_save.html:29
+msgid "High income (points)"
+msgstr "Hohes Einkommen (in Punkten)"
+
+#: .\instructions\templates\instructions\Instruct1_borrow.html:65
+#: .\instructions\templates\instructions\Instruct1_save.html:65
+msgid ""
+"Whether you get a high or a low income is decided by the computer as "
+"illustrated below.\n"
+"    The chances that a high or a low income is selected are equal."
+msgstr ""
+"Ob Sie in einer Periode ein hohes oder ein tiefes Einkommen erhalten, "
+"entscheidet der Computer (siehe Darstellung unten). Die Chancen, dass Sie "
+"ein tiefes oder ein hohes Einkommen zugeteilt bekommen, sind gleich hoch."
+
+#: .\instructions\templates\instructions\Instruct2.html:11
+msgid "Spending"
+msgstr "Ausgaben"
+
+#: .\instructions\templates\instructions\Instruct2.html:14
+msgid ""
+"In each period of your life, you will decide how much to spend (in points).\n"
+"            Your <b>Spending</b> (in points) in each period determines your "
+"<b>Rewards</b> (in Eurocents)\n"
+"            for that period according to the blue line in the graph below."
+msgstr ""
+"In jeder Periode Ihres Lebens werden Sie entscheiden, wie viele Punkte Sie "
+"ausgeben wollen. Ihre <b>Ausgaben</b> (in Punkten) in einer Periode "
+"bestimmen Ihre <b>Belohnung</b> (in Eurocents) für diese Periode wie die "
+"blaue Kurve unten zeigt."
+
+#: .\instructions\templates\instructions\Instruct2.html:21
+msgid ""
+"For example, if you decide to spend 150 points in one period,\n"
+"        your Reward for that period will be 364 Eurocents."
+msgstr ""
+"Zum Beispiel, wenn Sie in einer Periode 150 Punkte ausgeben, wird Ihre "
+"Belohnung für diese Periode 364 Eurocents sein."
+
+#: .\instructions\templates\instructions\Instruct2.html:24
+msgid ""
+"In each period, you will be able to see what happens to your <b>Eurocent "
+"Rewards</b>\n"
+"        when you change your <b>Spending</b>."
+msgstr ""
+"In jeder Periode werden Sie sehen, wie sich Ihre <b>Belohnung</b> (in "
+"Eurocents) ändert, wenn Sie die <b>Ausgaben</b> ändern."
+
+#: .\instructions\templates\instructions\Instruct3.html:15
+msgid "Account balance"
+msgstr "Guthaben"
+
+#: .\instructions\templates\instructions\Instruct3.html:18
+msgid ""
+"For each period in your life, we calculate your balance (in points):\n"
+"    <br>\n"
+"    <b>$$ \\text{End Balance}=\\text{Start Balance}+\\text{Income}-"
+"\\text{Spending} $$</b>"
+msgstr ""
+"Für jede Periode Ihres simulierten Lebens berechnen wir Ihr Guthaben (in "
+"Punkten) wie folgt:\n"
+"    <br>\n"
+"    <b>$$ \\text{Endguthaben}=\\text{Startguthaben plus Einkommen minus "
+"Ausgaben} $$</b>"
+
+#: .\instructions\templates\instructions\Instruct3.html:22
+msgid ""
+"In the first period, the <b>Start Balance</b> is 0.\n"
+"        In each of the following periods, the <b>Start Balance</b> is the "
+"<b>End Balance</b> of the previous period."
+msgstr ""
+"In der ersten Periode ist Ihr <b>Startguthaben</b> 0. In jeder folgenden "
+"Perioden entspricht das <b>Startguthaben</b> dem <b>Endguthaben</b> der "
+"vorherigen Periode."
+
+#: .\instructions\templates\instructions\Instruct3.html:25
+msgid ""
+"During your life, your <b>End Balance</b> can be positive or negative.\n"
+"        In the last period of each life (period 10), your <b>End Balance</b> "
+"must be zero.\n"
+"        For this reason, your <b>Spending</b> in period 10 will be "
+"calculated automatically."
+msgstr ""
+"Im Laufe Ihres simulierten Lebens kann Ihr <b>Endguthaben</b> positiv oder "
+"negativ sein. In der letzten Periode (Periode 10) muss Ihr <b>Endguthaben</"
+"b> gleich Null sein. Aus diesem Grund werden Ihre <b>Ausgaben</b> in Periode "
+"10 automatisch berechnet."
+
+#: .\instructions\templates\instructions\Instruct4.html:11
+msgid "Your Reward"
+msgstr "Ihre Belohnung"
+
+#: .\instructions\templates\instructions\Instruct4.html:14
+msgid ""
+"In each period, your <b>Reward</b> increases with your <b>Spending</b> as "
+"explained before.\n"
+"        However, if in the last period of your life (period 10) your <b>End "
+"Balance</b> is <b>negative</b>,\n"
+"        your <b>Eurocent Reward</b> in this period will be <b>negative</b>,\n"
+"        even if your <b>Spending</b> is 0 (see graph below)."
+msgstr ""
+"In jeder Periode erhöht sich Ihre <b>Belohnung</b> mit Ihren <b>Ausgaben</"
+"b>, wie zuvor erklärt. Wenn aber in der letzten Periode (Periode 10) Ihr "
+"<b>Endguthaben</b> <b>negativ</b> ist, wird Ihre <b>Belohnung</b> für diese "
+"Periode <b>negativ</b> sein (siehe Abbildung unten), auch wenn Ihre "
+"<b>Ausgaben</b> in dieser Periode 0 sind."
+
+#: .\instructions\templates\instructions\Instruct4.html:22
+msgid ""
+"For example, if your End Balance in Period 10 is -60 points,\n"
+"        your Reward for that period will be -904 Eurocents."
+msgstr ""
+"Zum Beispiel wenn Ihr Endguthaben am Ende der letzten Periode -60 Punkte "
+"beträgt, wird Ihre Belohnung für diese Periode -904 Punkte sein."
+
+#: .\instructions\templates\instructions\Instruct4.html:25
+msgid ""
+"To determine your Reward for the Investment Game, for each of your lives,\n"
+"        we first sum the <b>Eurocent Rewards</b> over the 10 periods.\n"
+"        Then, at the end of the Investment Game, we let the computer "
+"randomly choose one of your lives.\n"
+"        The <b>Eurocent Rewards</b> that you have gathered in the selected "
+"life will be your additional compensation."
+msgstr ""
+"Um Ihre Belohnung für das Investitionsspiel zu ermitteln, addieren wir "
+"zunächst für jedes Ihrer Leben die <b>Eurocent-Belohnungen</b> über die 10 "
+"Perioden. Am Ende des Investitionsspiels lassen wir den Computer nach dem "
+"Zufallsprinzip eines Ihrer Leben auswählen. Die <b>Eurocent-Belohnung</b>, "
+"die Sie in dem gewählten Leben gesammelt haben, ist Ihre zusätzliche "
+"Vergütung."
+
+#: .\instructions\templates\instructions\Intro.html:19
+msgid "Welcome!"
+msgstr "Willkommen!"
+
+#: .\instructions\templates\instructions\Intro.html:21
+msgid ""
+"In this survey,\n"
+"        you will participate in a simulation where you will be asked to make "
+"<b>financial decisions</b>."
+msgstr ""
+"In dieser Studie werden Sie im Rahmen einer <b>Simulation finanzielle "
+"Entscheidungen</b> treffen."
+
+#: .\instructions\templates\instructions\Intro.html:24
+msgid ""
+"Depending on your financial decisions,\n"
+"        you can earn an <b>additional compensation</b> that ranges between "
+"EUR 10 and EUR 23 on average.\n"
+"        Higher or lower amounts are also possible."
+msgstr ""
+"Je nachdem wie Sie sich entscheiden, werden Sie <b>zusätzlich</b> zu Ihrer "
+"Grundvergütung eine <b>Belohnung</b> bekommen können, welche im Durchschnitt "
+"zwischen <b>EUR 10</b> und <b>EUR 23</b> liegt. Höhere bzw. tiefe Beträge "
+"sind auch möglich."
+
+#: .\instructions\templates\instructions\Intro.html:28
+msgid ""
+"To maximize your compensation, we first ask you to read the <b>instructions</"
+"b> carefully.\n"
+"        Then, you will participate in a <b>trial</b> round.\n"
+"        Then, before starting with the real simulation,\n"
+"        you will be asked to correctly answer a <b>quiz</b> on the "
+"simulation’s rules."
+msgstr ""
+"Um Ihre finanzielle Entschädigung für diese Studie zu maximieren, bitten wir "
+"Sie zuerst die <b>Instruktionen</b> aufmerksam zu lesen. Danach werden Sie "
+"an einer <b>Proberunde</b> teilnehmen. Bevor Sie die reale Simulation "
+"beginnen, werden Sie ein Paar <b>Testfragen</b> zu den Regeln der Simulation "
+"beantworten."
+
+#: .\instructions\templates\instructions\Intro.html:33
+msgid ""
+"Only participants <b>correctly</b> answering the quiz questions will be\n"
+"        admitted to the real simulation and earn compensation."
+msgstr ""
+"Nur Teilenehmende, die diese Fragen <b>korrekt</b> beantworten, werden zu "
+"der realen Simulation zugelassen. Falls Sie zu der realen Simulation "
+"zugelassen werden, müssen Sie Ihre Entscheidungen ohne große zeitliche "
+"Unterbrüche treffen. Wir bitten Sie die Simulation nur dann zu starten, wenn "
+"Sie genügend Zeit haben diese abzuschließen."
+
+#: .\instructions\templates\instructions\Intro.html:36
+msgid ""
+"The simulation must be completed <b>without long interruptions</b>.\n"
+"        Please, only start the simulation if you have enough time."
+msgstr ""
+"Falls Sie zu der realen Simulation zugelassen werden, müssen Sie Ihre "
+"Entscheidungen <b>ohne große zeitliche Unterbrüche treffen</b>. Wir bitten "
+"Sie die Simulation nur dann zu starten, wenn Sie genügend Zeit haben diese "
+"abzuschließen."

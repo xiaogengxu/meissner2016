@@ -1,0 +1,58 @@
+{% extends "quiz/Page.html" %}
+{% load otree i18n %}
+
+{% block title %}
+{% endblock %}
+
+{% block content %}
+
+    {% if form.errors %}
+        <div class="alert alert-danger" role="alert">
+            <h6 class="alert-heading">{{ form.non_field_errors }}</h6>
+        </div>
+    {% endif %}
+
+    <h3><br>{% blocktrans %}Quiz: try again{% endblocktrans %}</h3>
+
+    <p>{% blocktrans %}Please answer the question again, before advancing to the live round. There is a hint below.{% endblocktrans %}</p>
+
+    {% formfield player.quiz3 %}
+
+    <p style="border:3px; border-style:solid; border-color: black; padding: 0.2em; border-radius: 3px">
+    {% blocktrans %}Hint: <br>
+    In each period of your life, you will decide how much to spend (in points).
+        This <b>Spending</b> (in points), will buy you Eurocent Rewards according to the blue line in the graph below.{% endblocktrans %}</p>
+
+    <img id="graph" width="500" height="auto" />
+    <br><br>
+
+    {% next_button %}
+
+    <script>
+        if ({{ lang|json }} == 'de') {
+            document.getElementById('graph').src = "{% static 'graph_de_new.png' %}";
+        }
+        if ({{ lang|json }} == 'en') {
+            document.getElementById('graph').src = "{% static 'graph.png' %}";
+        }
+    </script>
+
+     <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="29"
+            aria-valuemin="0" aria-valuemax="100" style="width:29%">
+            <span class="sr-only">29% Complete</span>
+        </div>
+    </div>
+
+    <style>
+    .otree-title {
+        display: none;
+    }
+
+    .otree-form-errors {
+            visibility: hidden;
+            display: none;
+    }
+    </style>
+
+{% endblock %}

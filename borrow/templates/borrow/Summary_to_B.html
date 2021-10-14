@@ -1,0 +1,112 @@
+{% extends "borrow/Page.html" %}
+{% load otree i18n %}
+
+{% block title %}
+{% endblock %}
+
+{% block content %}
+
+    <link href="{% static 'nouislider.min.css' %}" rel="stylesheet">
+    <script src="{% static 'wNumb.min.js' %}"></script>
+    <script src="{% static 'nouislider.min.js' %}"></script>
+
+    <h3>
+    <br>
+        {% blocktrans %}Reminder{% endblocktrans %}
+    </h3>
+
+    <p>
+        {% blocktrans %}Here is the summary of all lives.{% endblocktrans %}
+    </p>
+
+    <p>
+        {% blocktrans %}If Life 1 is chosen by the computer at the end of the game,
+        your additional compensation will be {{ points_total1_save }} Eurocents.{% endblocktrans %}
+    </p>
+
+    <p>
+        {% blocktrans %}If Life 2 is chosen by the computer at the end of the game,
+        your additional compensation will be {{ points_total2_save }} Eurocents.{% endblocktrans %}
+    </p>
+
+    <p>
+        {% blocktrans %}If Life 3 is chosen by the computer at the end of the game,
+        your additional compensation will be {{ points_total1 }} Eurocents.{% endblocktrans %}
+    </p>
+
+    <p>
+        {% blocktrans %}If Life 4 is chosen by the computer at the end of the game,
+        your additional compensation will be {{ points_total2 }} Eurocents.{% endblocktrans %}
+    </p>
+
+    <br>
+
+    {% next_button %}
+
+     <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="94"
+            aria-valuemin="0" aria-valuemax="100" style="width:94%">
+            <span class="sr-only">94% Complete</span>
+        </div>
+     </div>
+
+    <style>
+        .otree-title {
+            display: none;
+        }
+        .otree-form-errors {
+            visibility: hidden;
+            display: none;
+        }
+        .noUi-slide {
+            width: 100%; /* Width of the outside container */
+        }
+
+        /* The value of handle shows only when touching the handle. */
+        .noUi-tooltip {
+            display: none;
+        }
+        .noUi-active .noUi-tooltip {
+            display: block;
+        }
+        .noUi-handle {
+            display: none;
+        }
+        .noUi-pips {
+            top: 9px;
+        }
+        .noUi-value {
+            margin-top: -8px;
+        }
+        .noUi-marker-horizontal.noUi-marker-large {
+            height: 10px;
+        }
+        #customers {
+          {#font-family: Arial, Helvetica, sans-serif;#}
+          border-collapse: collapse;
+          width: 50%;
+        }
+
+        #customers td, #customers th {
+            border: 1px solid #ddd;
+            border-left: none;
+            border-right: none;
+            padding: 8px;
+            text-align: center;
+            width: 50%;
+        }
+
+        #customers tr:nth-child(even){background-color: #f2f2f2;}
+
+        #customers tr:hover {background-color: #ddd;}
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: center;
+        }
+    </style>
+
+{% endblock %}
+
+

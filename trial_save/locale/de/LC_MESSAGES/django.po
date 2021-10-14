@@ -1,0 +1,701 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-13 19:53+0300\n"
+"PO-Revision-Date: 2021-09-06 14:06+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#: .\trial_save\pages.py:25 .\trial_save\pages.py:52 .\trial_save\pages.py:91
+#: .\trial_save\pages.py:141 .\trial_save\pages.py:202
+#: .\trial_save\pages.py:274 .\trial_save\pages.py:357
+#: .\trial_save\pages.py:451 .\trial_save\pages.py:556
+msgid "Please decide the amount you would like to spend."
+msgstr "Bitte entscheiden Sie sich für den Betrag, den Sie ausgeben möchten."
+
+#: .\trial_save\templates\trial_save\End.html:15
+msgid "Before you advance to the live round, you need to complete a quiz."
+msgstr "Bevor Sie in die Live-Runde kommen, müssen Sie ein Quiz absolvieren."
+
+#: .\trial_save\templates\trial_save\Period1.html:11
+#: .\trial_save\templates\trial_save\Period10.html:11
+#: .\trial_save\templates\trial_save\Period2.html:11
+#: .\trial_save\templates\trial_save\Period3.html:11
+#: .\trial_save\templates\trial_save\Period4.html:11
+#: .\trial_save\templates\trial_save\Period5.html:11
+#: .\trial_save\templates\trial_save\Period6.html:11
+#: .\trial_save\templates\trial_save\Period7.html:11
+#: .\trial_save\templates\trial_save\Period8.html:11
+#: .\trial_save\templates\trial_save\Period9.html:11
+msgid "Trial life"
+msgstr "Proberunde"
+
+#: .\trial_save\templates\trial_save\Period1.html:11
+#: .\trial_save\templates\trial_save\Period1.html:47
+#: .\trial_save\templates\trial_save\Period1.html:176
+#: .\trial_save\templates\trial_save\Period10.html:11
+#: .\trial_save\templates\trial_save\Period10.html:44
+#: .\trial_save\templates\trial_save\Period10.html:221
+#: .\trial_save\templates\trial_save\Period2.html:11
+#: .\trial_save\templates\trial_save\Period2.html:47
+#: .\trial_save\templates\trial_save\Period2.html:182
+#: .\trial_save\templates\trial_save\Period3.html:11
+#: .\trial_save\templates\trial_save\Period3.html:47
+#: .\trial_save\templates\trial_save\Period3.html:188
+#: .\trial_save\templates\trial_save\Period4.html:11
+#: .\trial_save\templates\trial_save\Period4.html:47
+#: .\trial_save\templates\trial_save\Period4.html:194
+#: .\trial_save\templates\trial_save\Period5.html:11
+#: .\trial_save\templates\trial_save\Period5.html:47
+#: .\trial_save\templates\trial_save\Period5.html:200
+#: .\trial_save\templates\trial_save\Period6.html:11
+#: .\trial_save\templates\trial_save\Period6.html:47
+#: .\trial_save\templates\trial_save\Period6.html:206
+#: .\trial_save\templates\trial_save\Period7.html:11
+#: .\trial_save\templates\trial_save\Period7.html:47
+#: .\trial_save\templates\trial_save\Period7.html:212
+#: .\trial_save\templates\trial_save\Period8.html:11
+#: .\trial_save\templates\trial_save\Period8.html:47
+#: .\trial_save\templates\trial_save\Period8.html:218
+#: .\trial_save\templates\trial_save\Period9.html:11
+#: .\trial_save\templates\trial_save\Period9.html:47
+#: .\trial_save\templates\trial_save\Period9.html:224
+msgid "Period"
+msgstr "Periode"
+
+#: .\trial_save\templates\trial_save\Period1.html:25
+#: .\trial_save\templates\trial_save\Period2.html:25
+#: .\trial_save\templates\trial_save\Period3.html:25
+#: .\trial_save\templates\trial_save\Period4.html:25
+#: .\trial_save\templates\trial_save\Period5.html:25
+#: .\trial_save\templates\trial_save\Period6.html:25
+#: .\trial_save\templates\trial_save\Period7.html:25
+#: .\trial_save\templates\trial_save\Period8.html:25
+#: .\trial_save\templates\trial_save\Period9.html:25
+msgid ""
+"Please tap and move on the slider below to indicate how much you would like "
+"to spend in current Period"
+msgstr ""
+"Bitte tippen Sie den Schieberegler unten an und bewegen Sie ihn auf die Höhe "
+"Ihrer gewünschten Ausgaben in der laufenden Periode"
+
+#: .\trial_save\templates\trial_save\Period1.html:48
+#: .\trial_save\templates\trial_save\Period10.html:45
+#: .\trial_save\templates\trial_save\Period2.html:48
+#: .\trial_save\templates\trial_save\Period3.html:48
+#: .\trial_save\templates\trial_save\Period4.html:48
+#: .\trial_save\templates\trial_save\Period5.html:48
+#: .\trial_save\templates\trial_save\Period6.html:48
+#: .\trial_save\templates\trial_save\Period7.html:48
+#: .\trial_save\templates\trial_save\Period8.html:48
+#: .\trial_save\templates\trial_save\Period9.html:48
+msgid ""
+"Start period\n"
+"                    balance"
+msgstr "Startguthaben"
+
+#: .\trial_save\templates\trial_save\Period1.html:51
+#: .\trial_save\templates\trial_save\Period10.html:48
+#: .\trial_save\templates\trial_save\Period2.html:51
+#: .\trial_save\templates\trial_save\Period3.html:51
+#: .\trial_save\templates\trial_save\Period4.html:51
+#: .\trial_save\templates\trial_save\Period5.html:51
+#: .\trial_save\templates\trial_save\Period6.html:51
+#: .\trial_save\templates\trial_save\Period7.html:51
+#: .\trial_save\templates\trial_save\Period8.html:51
+#: .\trial_save\templates\trial_save\Period9.html:51
+msgid ""
+"Your points at the start of the period. This is equal to End Period Wealth "
+"of the previous period."
+msgstr ""
+"Ihre Punkte zu Beginn der Periode. Dies ist gleich dem Endguthaben der "
+"vorherigen Periode."
+
+#: .\trial_save\templates\trial_save\Period1.html:55
+#: .\trial_save\templates\trial_save\Period1.html:152
+#: .\trial_save\templates\trial_save\Period10.html:52
+#: .\trial_save\templates\trial_save\Period10.html:197
+#: .\trial_save\templates\trial_save\Period2.html:55
+#: .\trial_save\templates\trial_save\Period2.html:158
+#: .\trial_save\templates\trial_save\Period3.html:55
+#: .\trial_save\templates\trial_save\Period3.html:164
+#: .\trial_save\templates\trial_save\Period4.html:55
+#: .\trial_save\templates\trial_save\Period4.html:170
+#: .\trial_save\templates\trial_save\Period5.html:55
+#: .\trial_save\templates\trial_save\Period5.html:176
+#: .\trial_save\templates\trial_save\Period6.html:55
+#: .\trial_save\templates\trial_save\Period6.html:182
+#: .\trial_save\templates\trial_save\Period7.html:55
+#: .\trial_save\templates\trial_save\Period7.html:188
+#: .\trial_save\templates\trial_save\Period8.html:55
+#: .\trial_save\templates\trial_save\Period8.html:194
+#: .\trial_save\templates\trial_save\Period9.html:55
+#: .\trial_save\templates\trial_save\Period9.html:200
+msgid "Income"
+msgstr "Einkommen"
+
+#: .\trial_save\templates\trial_save\Period1.html:58
+#: .\trial_save\templates\trial_save\Period10.html:55
+#: .\trial_save\templates\trial_save\Period2.html:58
+#: .\trial_save\templates\trial_save\Period3.html:58
+#: .\trial_save\templates\trial_save\Period4.html:58
+#: .\trial_save\templates\trial_save\Period5.html:58
+#: .\trial_save\templates\trial_save\Period6.html:58
+#: .\trial_save\templates\trial_save\Period7.html:58
+#: .\trial_save\templates\trial_save\Period8.html:58
+#: .\trial_save\templates\trial_save\Period9.html:58
+msgid "Your points earned in the period"
+msgstr "Ihr Einkommen (in Punkten)"
+
+#: .\trial_save\templates\trial_save\Period1.html:62
+#: .\trial_save\templates\trial_save\Period1.html:153
+#: .\trial_save\templates\trial_save\Period10.html:59
+#: .\trial_save\templates\trial_save\Period10.html:198
+#: .\trial_save\templates\trial_save\Period2.html:62
+#: .\trial_save\templates\trial_save\Period2.html:159
+#: .\trial_save\templates\trial_save\Period3.html:62
+#: .\trial_save\templates\trial_save\Period3.html:165
+#: .\trial_save\templates\trial_save\Period4.html:62
+#: .\trial_save\templates\trial_save\Period4.html:171
+#: .\trial_save\templates\trial_save\Period5.html:62
+#: .\trial_save\templates\trial_save\Period5.html:177
+#: .\trial_save\templates\trial_save\Period6.html:62
+#: .\trial_save\templates\trial_save\Period6.html:183
+#: .\trial_save\templates\trial_save\Period7.html:62
+#: .\trial_save\templates\trial_save\Period7.html:189
+#: .\trial_save\templates\trial_save\Period8.html:62
+#: .\trial_save\templates\trial_save\Period8.html:195
+#: .\trial_save\templates\trial_save\Period9.html:62
+#: .\trial_save\templates\trial_save\Period9.html:201
+msgid "Spending"
+msgstr "Ausgaben"
+
+#: .\trial_save\templates\trial_save\Period1.html:65
+#: .\trial_save\templates\trial_save\Period10.html:62
+#: .\trial_save\templates\trial_save\Period2.html:65
+#: .\trial_save\templates\trial_save\Period3.html:65
+#: .\trial_save\templates\trial_save\Period4.html:65
+#: .\trial_save\templates\trial_save\Period5.html:65
+#: .\trial_save\templates\trial_save\Period6.html:65
+#: .\trial_save\templates\trial_save\Period7.html:65
+#: .\trial_save\templates\trial_save\Period8.html:65
+#: .\trial_save\templates\trial_save\Period9.html:65
+msgid "Points you decided to spend (with the slider above) in the period"
+msgstr "Ausgaben (in Punkten) (gemäß Schieberegler)"
+
+#: .\trial_save\templates\trial_save\Period1.html:69
+#: .\trial_save\templates\trial_save\Period10.html:66
+#: .\trial_save\templates\trial_save\Period2.html:69
+#: .\trial_save\templates\trial_save\Period4.html:69
+#: .\trial_save\templates\trial_save\Period5.html:69
+#: .\trial_save\templates\trial_save\Period6.html:69
+#: .\trial_save\templates\trial_save\Period7.html:69
+#: .\trial_save\templates\trial_save\Period8.html:69
+#: .\trial_save\templates\trial_save\Period9.html:69
+msgid "End period balance"
+msgstr "Endguthaben"
+
+#: .\trial_save\templates\trial_save\Period1.html:72
+#: .\trial_save\templates\trial_save\Period10.html:69
+#: .\trial_save\templates\trial_save\Period2.html:72
+#: .\trial_save\templates\trial_save\Period3.html:72
+#: .\trial_save\templates\trial_save\Period4.html:72
+#: .\trial_save\templates\trial_save\Period5.html:72
+#: .\trial_save\templates\trial_save\Period6.html:72
+#: .\trial_save\templates\trial_save\Period7.html:72
+#: .\trial_save\templates\trial_save\Period8.html:72
+#: .\trial_save\templates\trial_save\Period9.html:72
+msgid ""
+"Points you own at the end of the period. The value is equal to Start Period "
+"Wealth + Income - Spending."
+msgstr ""
+"Punkte, die Sie am Ende der jeweiligen Periode besitzen. Der Wert ist gleich "
+"dem Startguthaben plus Einkommen minus Ausgaben."
+
+#: .\trial_save\templates\trial_save\Period1.html:76
+#: .\trial_save\templates\trial_save\Period10.html:73
+#: .\trial_save\templates\trial_save\Period2.html:76
+#: .\trial_save\templates\trial_save\Period3.html:76
+#: .\trial_save\templates\trial_save\Period4.html:76
+#: .\trial_save\templates\trial_save\Period5.html:76
+#: .\trial_save\templates\trial_save\Period6.html:76
+#: .\trial_save\templates\trial_save\Period7.html:76
+#: .\trial_save\templates\trial_save\Period8.html:76
+#: .\trial_save\templates\trial_save\Period9.html:76
+msgid "Reward (in Eurocents)"
+msgstr "Ihre Belohnung (in Eurocents)"
+
+#: .\trial_save\templates\trial_save\Period1.html:79
+#: .\trial_save\templates\trial_save\Period10.html:76
+#: .\trial_save\templates\trial_save\Period2.html:79
+#: .\trial_save\templates\trial_save\Period3.html:79
+#: .\trial_save\templates\trial_save\Period4.html:79
+#: .\trial_save\templates\trial_save\Period5.html:79
+#: .\trial_save\templates\trial_save\Period6.html:79
+#: .\trial_save\templates\trial_save\Period7.html:79
+#: .\trial_save\templates\trial_save\Period8.html:79
+#: .\trial_save\templates\trial_save\Period9.html:79
+msgid ""
+"Eurocents purchased as rewards in the period, based on your points Spending "
+"decision. For more information, click the button ´´Spending´´ at bottom of "
+"the page."
+msgstr ""
+"Eurocents, die Sie in der jeweiligen Periode als Belohnung bekommen, "
+"basierend auf Ihrer Entscheidung über die Höhe der Ausgaben (Schieberegler). "
+"Für mehr Informationen klicken Sie auf die Registerkarte \"Ausgaben\" unten "
+"auf der Seite."
+
+#: .\trial_save\templates\trial_save\Period1.html:97
+#: .\trial_save\templates\trial_save\Period1.html:103
+#: .\trial_save\templates\trial_save\Period1.html:106
+#: .\trial_save\templates\trial_save\Period1.html:109
+#: .\trial_save\templates\trial_save\Period1.html:112
+#: .\trial_save\templates\trial_save\Period1.html:115
+#: .\trial_save\templates\trial_save\Period1.html:118
+#: .\trial_save\templates\trial_save\Period1.html:121
+#: .\trial_save\templates\trial_save\Period1.html:124
+#: .\trial_save\templates\trial_save\Period2.html:106
+#: .\trial_save\templates\trial_save\Period2.html:112
+#: .\trial_save\templates\trial_save\Period2.html:115
+#: .\trial_save\templates\trial_save\Period2.html:118
+#: .\trial_save\templates\trial_save\Period2.html:121
+#: .\trial_save\templates\trial_save\Period2.html:124
+#: .\trial_save\templates\trial_save\Period2.html:127
+#: .\trial_save\templates\trial_save\Period2.html:130
+#: .\trial_save\templates\trial_save\Period3.html:115
+#: .\trial_save\templates\trial_save\Period3.html:121
+#: .\trial_save\templates\trial_save\Period3.html:124
+#: .\trial_save\templates\trial_save\Period3.html:127
+#: .\trial_save\templates\trial_save\Period3.html:130
+#: .\trial_save\templates\trial_save\Period3.html:133
+#: .\trial_save\templates\trial_save\Period3.html:136
+#: .\trial_save\templates\trial_save\Period4.html:124
+#: .\trial_save\templates\trial_save\Period4.html:130
+#: .\trial_save\templates\trial_save\Period4.html:133
+#: .\trial_save\templates\trial_save\Period4.html:136
+#: .\trial_save\templates\trial_save\Period4.html:139
+#: .\trial_save\templates\trial_save\Period4.html:142
+#: .\trial_save\templates\trial_save\Period5.html:133
+#: .\trial_save\templates\trial_save\Period5.html:139
+#: .\trial_save\templates\trial_save\Period5.html:142
+#: .\trial_save\templates\trial_save\Period5.html:145
+#: .\trial_save\templates\trial_save\Period5.html:148
+#: .\trial_save\templates\trial_save\Period6.html:142
+#: .\trial_save\templates\trial_save\Period6.html:148
+#: .\trial_save\templates\trial_save\Period6.html:151
+#: .\trial_save\templates\trial_save\Period6.html:154
+#: .\trial_save\templates\trial_save\Period7.html:151
+#: .\trial_save\templates\trial_save\Period7.html:157
+#: .\trial_save\templates\trial_save\Period7.html:160
+#: .\trial_save\templates\trial_save\Period8.html:160
+#: .\trial_save\templates\trial_save\Period8.html:166
+#: .\trial_save\templates\trial_save\Period9.html:169
+msgid "or"
+msgstr "oder"
+
+#: .\trial_save\templates\trial_save\Period1.html:127
+#: .\trial_save\templates\trial_save\Period10.html:172
+#: .\trial_save\templates\trial_save\Period2.html:133
+#: .\trial_save\templates\trial_save\Period3.html:139
+#: .\trial_save\templates\trial_save\Period4.html:145
+#: .\trial_save\templates\trial_save\Period5.html:151
+#: .\trial_save\templates\trial_save\Period6.html:157
+#: .\trial_save\templates\trial_save\Period7.html:163
+#: .\trial_save\templates\trial_save\Period8.html:169
+#: .\trial_save\templates\trial_save\Period9.html:175
+msgid "Total life reward"
+msgstr "Belohnung in diesem Leben"
+
+#: .\trial_save\templates\trial_save\Period1.html:130
+#: .\trial_save\templates\trial_save\Period10.html:175
+#: .\trial_save\templates\trial_save\Period2.html:136
+#: .\trial_save\templates\trial_save\Period3.html:142
+#: .\trial_save\templates\trial_save\Period4.html:148
+#: .\trial_save\templates\trial_save\Period5.html:154
+#: .\trial_save\templates\trial_save\Period6.html:160
+#: .\trial_save\templates\trial_save\Period7.html:166
+#: .\trial_save\templates\trial_save\Period8.html:172
+#: .\trial_save\templates\trial_save\Period9.html:178
+msgid ""
+"Sum of Eurocents in all periods you have played. If this sum is a negative "
+"number, it will be adjusted to zero."
+msgstr ""
+"Summe der Eurocents in allen Perioden, die Sie gespielt haben. Wenn diese "
+"Summe eine negative Zahl ist, wird sie auf 0 gesetzt."
+
+#: .\trial_save\templates\trial_save\Period1.html:151
+#: .\trial_save\templates\trial_save\Period10.html:196
+#: .\trial_save\templates\trial_save\Period2.html:157
+#: .\trial_save\templates\trial_save\Period3.html:163
+#: .\trial_save\templates\trial_save\Period4.html:169
+#: .\trial_save\templates\trial_save\Period5.html:175
+#: .\trial_save\templates\trial_save\Period6.html:181
+#: .\trial_save\templates\trial_save\Period7.html:187
+#: .\trial_save\templates\trial_save\Period8.html:193
+#: .\trial_save\templates\trial_save\Period9.html:199
+msgid "Instruction"
+msgstr "Anweisung"
+
+#: .\trial_save\templates\trial_save\Period1.html:154
+#: .\trial_save\templates\trial_save\Period10.html:199
+#: .\trial_save\templates\trial_save\Period2.html:160
+#: .\trial_save\templates\trial_save\Period3.html:166
+#: .\trial_save\templates\trial_save\Period4.html:172
+#: .\trial_save\templates\trial_save\Period5.html:178
+#: .\trial_save\templates\trial_save\Period6.html:184
+#: .\trial_save\templates\trial_save\Period7.html:190
+#: .\trial_save\templates\trial_save\Period8.html:196
+#: .\trial_save\templates\trial_save\Period9.html:202
+msgid "Account balance"
+msgstr "Guthaben"
+
+#: .\trial_save\templates\trial_save\Period1.html:155
+#: .\trial_save\templates\trial_save\Period10.html:200
+#: .\trial_save\templates\trial_save\Period2.html:161
+#: .\trial_save\templates\trial_save\Period3.html:167
+#: .\trial_save\templates\trial_save\Period4.html:173
+#: .\trial_save\templates\trial_save\Period5.html:179
+#: .\trial_save\templates\trial_save\Period6.html:185
+#: .\trial_save\templates\trial_save\Period7.html:191
+#: .\trial_save\templates\trial_save\Period8.html:197
+#: .\trial_save\templates\trial_save\Period9.html:203
+msgid "Your reward"
+msgstr "Ihre Belohnung"
+
+#: .\trial_save\templates\trial_save\Period1.html:159
+#: .\trial_save\templates\trial_save\Period10.html:204
+#: .\trial_save\templates\trial_save\Period2.html:165
+#: .\trial_save\templates\trial_save\Period3.html:171
+#: .\trial_save\templates\trial_save\Period4.html:177
+#: .\trial_save\templates\trial_save\Period5.html:183
+#: .\trial_save\templates\trial_save\Period6.html:189
+#: .\trial_save\templates\trial_save\Period7.html:195
+#: .\trial_save\templates\trial_save\Period8.html:201
+#: .\trial_save\templates\trial_save\Period9.html:207
+msgid "Please click the other tabs to check the instruction if you want."
+msgstr ""
+"Bitte klicken Sie auf die anderen Registerkarten, um die Anweisungen zu "
+"überprüfen, wenn Sie möchten."
+
+#: .\trial_save\templates\trial_save\Period1.html:163
+#: .\trial_save\templates\trial_save\Period10.html:208
+#: .\trial_save\templates\trial_save\Period2.html:169
+#: .\trial_save\templates\trial_save\Period3.html:175
+#: .\trial_save\templates\trial_save\Period4.html:181
+#: .\trial_save\templates\trial_save\Period5.html:187
+#: .\trial_save\templates\trial_save\Period6.html:193
+#: .\trial_save\templates\trial_save\Period7.html:199
+#: .\trial_save\templates\trial_save\Period8.html:205
+#: .\trial_save\templates\trial_save\Period9.html:211
+msgid ""
+"In each period, you will earn Income (represented in points).\n"
+"            This income can be high or low as shown in the table below."
+msgstr ""
+"In jeder Periode werden Sie ein Einkommen (in Punkten) erhalten. Dieses "
+"Einkommen wird entweder hoch oder tief sein, wie die Tabelle unten zeigt."
+
+#: .\trial_save\templates\trial_save\Period1.html:177
+#: .\trial_save\templates\trial_save\Period10.html:222
+#: .\trial_save\templates\trial_save\Period2.html:183
+#: .\trial_save\templates\trial_save\Period3.html:189
+#: .\trial_save\templates\trial_save\Period4.html:195
+#: .\trial_save\templates\trial_save\Period5.html:201
+#: .\trial_save\templates\trial_save\Period6.html:207
+#: .\trial_save\templates\trial_save\Period7.html:213
+#: .\trial_save\templates\trial_save\Period8.html:219
+#: .\trial_save\templates\trial_save\Period9.html:225
+msgid "Low income (points)"
+msgstr "Tiefes Einkommen (in Punkten)"
+
+#: .\trial_save\templates\trial_save\Period1.html:178
+#: .\trial_save\templates\trial_save\Period10.html:223
+#: .\trial_save\templates\trial_save\Period2.html:184
+#: .\trial_save\templates\trial_save\Period3.html:190
+#: .\trial_save\templates\trial_save\Period4.html:196
+#: .\trial_save\templates\trial_save\Period5.html:202
+#: .\trial_save\templates\trial_save\Period6.html:208
+#: .\trial_save\templates\trial_save\Period7.html:214
+#: .\trial_save\templates\trial_save\Period8.html:220
+#: .\trial_save\templates\trial_save\Period9.html:226
+msgid "High income (points)"
+msgstr "Hohes Einkommen (in Punkten)"
+
+#: .\trial_save\templates\trial_save\Period1.html:214
+#: .\trial_save\templates\trial_save\Period10.html:259
+#: .\trial_save\templates\trial_save\Period2.html:220
+#: .\trial_save\templates\trial_save\Period3.html:226
+#: .\trial_save\templates\trial_save\Period4.html:232
+#: .\trial_save\templates\trial_save\Period5.html:238
+#: .\trial_save\templates\trial_save\Period6.html:244
+#: .\trial_save\templates\trial_save\Period7.html:250
+#: .\trial_save\templates\trial_save\Period8.html:256
+#: .\trial_save\templates\trial_save\Period9.html:262
+msgid ""
+"Whether you get a high or a low income is decided by the computer as "
+"illustrated below.\n"
+"        The chances that a high or a low income is selected are equal."
+msgstr ""
+"Ob Sie in einer Periode ein hohes oder ein tiefes Einkommen erhalten, "
+"entscheidet der Computer (siehe Darstellung unten). Die Chancen, dass Sie "
+"ein tiefes oder ein hohes Einkommen zugeteilt bekommen, sind gleich hoch."
+
+#: .\trial_save\templates\trial_save\Period1.html:278
+#: .\trial_save\templates\trial_save\Period10.html:323
+#: .\trial_save\templates\trial_save\Period2.html:284
+#: .\trial_save\templates\trial_save\Period3.html:290
+#: .\trial_save\templates\trial_save\Period4.html:296
+#: .\trial_save\templates\trial_save\Period5.html:302
+#: .\trial_save\templates\trial_save\Period6.html:308
+#: .\trial_save\templates\trial_save\Period7.html:314
+#: .\trial_save\templates\trial_save\Period8.html:320
+#: .\trial_save\templates\trial_save\Period9.html:326
+msgid ""
+"In each period of your life, you will decide how much to spend (in points).\n"
+"            Your <b>Spending</b> (in points) in each period determines your "
+"<b>Rewards</b> (in Eurocents)\n"
+"            for that period according to the blue line in the graph below."
+msgstr ""
+"In jeder Periode Ihres Lebens werden Sie entscheiden, wie viele Punkte Sie "
+"ausgeben wollen. Ihre <b>Ausgaben</b> (in Punkten) in einer Periode "
+"bestimmen Ihre <b>Belohnung</b> (in Eurocents) für diese Periode wie die "
+"blaue Kurve unten zeigt."
+
+#: .\trial_save\templates\trial_save\Period1.html:285
+#: .\trial_save\templates\trial_save\Period10.html:330
+#: .\trial_save\templates\trial_save\Period2.html:291
+#: .\trial_save\templates\trial_save\Period3.html:297
+#: .\trial_save\templates\trial_save\Period4.html:303
+#: .\trial_save\templates\trial_save\Period5.html:309
+#: .\trial_save\templates\trial_save\Period6.html:315
+#: .\trial_save\templates\trial_save\Period7.html:321
+#: .\trial_save\templates\trial_save\Period8.html:327
+#: .\trial_save\templates\trial_save\Period9.html:333
+msgid ""
+"For example, if you decide to spend 150 points in one period,\n"
+"            your Reward for that period will be 364 Eurocents."
+msgstr ""
+"Zum Beispiel, wenn Sie in einer Periode 150 Punkte ausgeben, wird Ihre "
+"Belohnung für diese Periode 364 Eurocents sein."
+
+#: .\trial_save\templates\trial_save\Period1.html:288
+#: .\trial_save\templates\trial_save\Period10.html:333
+#: .\trial_save\templates\trial_save\Period2.html:294
+#: .\trial_save\templates\trial_save\Period3.html:300
+#: .\trial_save\templates\trial_save\Period4.html:306
+#: .\trial_save\templates\trial_save\Period5.html:312
+#: .\trial_save\templates\trial_save\Period6.html:318
+#: .\trial_save\templates\trial_save\Period7.html:324
+#: .\trial_save\templates\trial_save\Period8.html:330
+#: .\trial_save\templates\trial_save\Period9.html:336
+msgid ""
+"In each period, you will be able to see what happens to your <b>Eurocent "
+"Rewards</b> when you change your <b>Spending</b>."
+msgstr ""
+"In jeder Periode werden Sie sehen, wie sich Ihre <b>Belohnung</b> (in "
+"Eurocents) ändert, wenn Sie die <b>Ausgaben</b> ändern."
+
+#: .\trial_save\templates\trial_save\Period1.html:301
+#: .\trial_save\templates\trial_save\Period10.html:346
+#: .\trial_save\templates\trial_save\Period2.html:307
+#: .\trial_save\templates\trial_save\Period3.html:313
+#: .\trial_save\templates\trial_save\Period4.html:319
+#: .\trial_save\templates\trial_save\Period5.html:325
+#: .\trial_save\templates\trial_save\Period6.html:331
+#: .\trial_save\templates\trial_save\Period7.html:337
+#: .\trial_save\templates\trial_save\Period8.html:343
+#: .\trial_save\templates\trial_save\Period9.html:349
+msgid ""
+"For each period in your life, we calculate your balance (in points):\n"
+"        <br>\n"
+"        <b>$$ \\text{End Balance}=\\text{Start Balance}+\\text{Income}-\\text"
+"{Spending} $$</b>"
+msgstr ""
+"Für jede Periode Ihres simulierten Lebens berechnen wir Ihr Guthaben (in "
+"Punkten) wie folgt:\n"
+"    <br>\n"
+"    <b>$$ \\text{Endguthaben}=\\text{Startguthaben plus Einkommen minus "
+"Ausgaben} $$</b>"
+
+#: .\trial_save\templates\trial_save\Period1.html:305
+#: .\trial_save\templates\trial_save\Period10.html:350
+#: .\trial_save\templates\trial_save\Period2.html:311
+#: .\trial_save\templates\trial_save\Period3.html:317
+#: .\trial_save\templates\trial_save\Period4.html:323
+#: .\trial_save\templates\trial_save\Period5.html:329
+#: .\trial_save\templates\trial_save\Period6.html:335
+#: .\trial_save\templates\trial_save\Period7.html:341
+#: .\trial_save\templates\trial_save\Period8.html:347
+#: .\trial_save\templates\trial_save\Period9.html:353
+msgid ""
+"In the first period, the <b>Start Balance</b> is 0.\n"
+"            In each of the following periods, the <b>Start Balance</b> is "
+"the <b>End Balance</b> of the previous period."
+msgstr ""
+"In der ersten Periode ist Ihr <b>Startguthaben</b> 0. In jeder folgenden "
+"Perioden entspricht das <b>Startguthaben</b> dem <b>Endguthaben</b> der "
+"vorherigen Periode."
+
+#: .\trial_save\templates\trial_save\Period1.html:308
+#: .\trial_save\templates\trial_save\Period10.html:353
+#: .\trial_save\templates\trial_save\Period2.html:314
+#: .\trial_save\templates\trial_save\Period3.html:320
+#: .\trial_save\templates\trial_save\Period4.html:326
+#: .\trial_save\templates\trial_save\Period5.html:332
+#: .\trial_save\templates\trial_save\Period6.html:338
+#: .\trial_save\templates\trial_save\Period7.html:344
+#: .\trial_save\templates\trial_save\Period8.html:350
+#: .\trial_save\templates\trial_save\Period9.html:356
+msgid ""
+"During your life, your <b>End Balance</b> can be positive or negative.\n"
+"            In the last period of each life (period 10), your <b>End "
+"Balance</b> must be zero.\n"
+"            For this reason, your <b>Spending</b> in period 10 will be "
+"calculated automatically."
+msgstr ""
+"Im Laufe Ihres simulierten Lebens kann Ihr <b>Endguthaben</b> positiv oder "
+"negativ sein. In der letzten Periode (Periode 10) muss Ihr <b>Endguthaben</"
+"b> gleich Null sein. Aus diesem Grund werden Ihre <b>Ausgaben</b> in Periode "
+"10 automatisch berechnet."
+
+#: .\trial_save\templates\trial_save\Period1.html:316
+#: .\trial_save\templates\trial_save\Period10.html:361
+#: .\trial_save\templates\trial_save\Period2.html:322
+#: .\trial_save\templates\trial_save\Period3.html:328
+#: .\trial_save\templates\trial_save\Period4.html:334
+#: .\trial_save\templates\trial_save\Period5.html:340
+#: .\trial_save\templates\trial_save\Period6.html:346
+#: .\trial_save\templates\trial_save\Period7.html:352
+#: .\trial_save\templates\trial_save\Period8.html:358
+#: .\trial_save\templates\trial_save\Period9.html:364
+msgid ""
+"In each period, your <b>Reward</b> increases with your <b>Spending</b> as "
+"explained before.\n"
+"            However, if in the last period of your life (period 10) your "
+"<b>End Balance</b> is <b>negative</b>,\n"
+"            your <b>Eurocent Reward</b> in this period will be <b>negative</"
+"b>,\n"
+"            even if your <b>Spending</b> is 0 (see graph below)."
+msgstr ""
+"In jeder Periode erhöht sich Ihre <b>Belohnung</b> mit Ihren <b>Ausgaben</"
+"b>, wie zuvor erklärt. Wenn aber in der letzten Periode (Periode 10) Ihr "
+"<b>Endguthaben</b> <b>negativ</b> ist, wird Ihre <b>Belohnung</b> für diese "
+"Periode <b>negativ</b> sein (siehe Abbildung unten), auch wenn Ihre "
+"<b>Ausgaben</b> in dieser Periode 0 sind."
+
+#: .\trial_save\templates\trial_save\Period1.html:323
+#: .\trial_save\templates\trial_save\Period10.html:368
+#: .\trial_save\templates\trial_save\Period2.html:329
+#: .\trial_save\templates\trial_save\Period3.html:335
+#: .\trial_save\templates\trial_save\Period4.html:341
+#: .\trial_save\templates\trial_save\Period5.html:347
+#: .\trial_save\templates\trial_save\Period6.html:353
+#: .\trial_save\templates\trial_save\Period7.html:359
+#: .\trial_save\templates\trial_save\Period8.html:365
+#: .\trial_save\templates\trial_save\Period9.html:371
+msgid ""
+"For example, if your End Balance in Period 10 is -60 points,\n"
+"            your Reward for that period will be -904 Eurocents."
+msgstr ""
+"Zum Beispiel wenn Ihr Endguthaben am Ende der letzten Periode -60 Punkte "
+"beträgt, wird Ihre Belohnung für diese Periode -904 Punkte sein."
+
+#: .\trial_save\templates\trial_save\Period1.html:326
+#: .\trial_save\templates\trial_save\Period10.html:371
+#: .\trial_save\templates\trial_save\Period2.html:332
+#: .\trial_save\templates\trial_save\Period3.html:338
+#: .\trial_save\templates\trial_save\Period4.html:344
+#: .\trial_save\templates\trial_save\Period5.html:350
+#: .\trial_save\templates\trial_save\Period6.html:356
+#: .\trial_save\templates\trial_save\Period7.html:362
+#: .\trial_save\templates\trial_save\Period8.html:368
+#: .\trial_save\templates\trial_save\Period9.html:374
+msgid ""
+"To determine your Reward for the Investment Game, for each of your lives,\n"
+"            we first sum the <b>Eurocent Rewards</b> over the 10 periods.\n"
+"            Then, at the end of the Investment Game, we let the computer "
+"randomly choose one of your lives.\n"
+"            The <b>Eurocent Rewards</b> that you have gathered in the "
+"selected life will be your additional compensation."
+msgstr ""
+"Um Ihre Belohnung für das Investitionsspiel zu ermitteln, addieren wir "
+"zunächst für jedes Ihrer Leben die <b>Eurocent-Belohnungen</b> über die 10 "
+"Perioden. Am Ende des Investitionsspiels lassen wir den Computer nach dem "
+"Zufallsprinzip eines Ihrer Leben auswählen. Die <b>Eurocent-Belohnung</b>, "
+"die Sie in dem gewählten Leben gesammelt haben, ist Ihre zusätzliche "
+"Vergütung."
+
+#: .\trial_save\templates\trial_save\Period10.html:25
+#, python-format
+msgid ""
+"This is the last period of the trial life.\n"
+"        In the last period, you need to spend the initial wealth of the "
+"period and the income you receive in this period.\n"
+"            Thus, you spend %(spend_save10)s points and get %(points_save10)"
+"s Eurocents as a <b>Reward</b> in Period 10."
+msgstr ""
+"Dies ist die letzte Periode. In der letzten Periode müssen Sie das "
+"Startguthaben und das Einkommen, das Sie in dieser Periode erhalten, "
+"ausgeben. Sie geben also %(spend_save10)s Punkte aus und erhalten %"
+"(points_save10)s Eurocents als <b>Belohnung</b> in dieser Periode."
+
+#: .\trial_save\templates\trial_save\Period3.html:69
+msgid "End period balance "
+msgstr "Endguthaben "
+
+#: .\trial_save\templates\trial_save\Start.html:11
+msgid "Trial round"
+msgstr "Testrunde"
+
+#: .\trial_save\templates\trial_save\Start.html:15
+msgid "You will now play a trial life to get you familiarized with the game."
+msgstr ""
+"Sie werden jetzt ein Probelaufleben spielen, um sich mit dem Spiel vertraut "
+"zu machen."
+
+#: .\trial_save\templates\trial_save\Start.html:19
+msgid ""
+"Everything is identical to the lives you will play,\n"
+"        except that you will not earn any financial reward based on the "
+"results of this trial life."
+msgstr ""
+"Alles entspricht dem Leben, das Sie spielen werden, außer dass Sie keine "
+"finanzielle Belohnung auf der Grundlage der Ergebnisse dieses Probelaufs "
+"erhalten."
+
+#: .\trial_save\templates\trial_save\Start.html:24
+msgid ""
+"Use this round to explore all features of the game.\n"
+"        You can access the instructions clicking on the buttons at the "
+"bottom of the page."
+msgstr ""
+"Nutzen Sie diese Runde, um alle Funktionen des Spiels zu erkunden. Sie "
+"können die Anleitung jederzeit aufrufen, indem Sie auf die Schaltflächen "
+"unten auf der Seite klicken."
+
+#: .\trial_save\templates\trial_save\Summary.html:15
+msgid "Summary"
+msgstr "Zusammenfassung"
+
+#: .\trial_save\templates\trial_save\Summary.html:19
+#, python-format
+msgid ""
+"This is the end of the trial life. Your reward in the trial life is %"
+"(points_total1)s Eurocents.\n"
+"        This reward from the trial round will not be paid to you, as this is "
+"just a test."
+msgstr ""
+"Dies ist das Ende der Proberunde. Ihre Belohnung in der Proberunde ist %"
+"(points_total1)s Eurocents. Diese Belohnung aus der Proberunde wird Ihnen "
+"nicht ausgezahlt, da dies nur ein Probelauf war."

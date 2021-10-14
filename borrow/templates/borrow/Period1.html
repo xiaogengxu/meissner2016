@@ -1,0 +1,566 @@
+{% extends "borrow/Page.html" %}
+{% load otree i18n %}
+
+{% block title %}
+{% endblock %}
+
+{% block content %}
+
+    <h3>
+        <br>
+        {% blocktrans %}Life{% endblocktrans %} {{ round_num }}: {% blocktrans %}Period{% endblocktrans %} 1/10
+    </h3>
+
+    <link href="{% static 'nouislider.min.css' %}" rel="stylesheet" xmlns="http://www.w3.org/1999/html"
+          xmlns="http://www.w3.org/1999/html">
+    <script src="{% static 'wNumb.min.js' %}"></script>
+    <script src="{% static 'nouislider.min.js' %}"></script>
+
+    {% if form.errors %}
+        <div class="alert alert-danger" role="alert">
+            <h6 class="alert-heading">{{ form.non_field_errors }}</h6>
+        </div>
+    {% endif %}
+
+    <p>
+        {% blocktrans %}Please tap and move on the slider below to indicate how much you would like to spend in current Period{% endblocktrans %} 1.
+    </p>
+
+    <input type="hidden" name="spend1" value="" id="myRange_spend1"/>
+    <input type="hidden" name="check_spend1" value="" id="id_check_spend1"/>
+    <div type="range" class="noUiSlider" id="slider_spend1"></div>
+    <hr style="height:3px; visibility:hidden" />
+
+    <table id="info_table" style="width: 70%">
+        <colgroup>
+           <col span="1" style="width: 1%;">
+           <col span="1" style="width: 5%;">
+           <col span="1" style="width: 18%;">
+           <col span="1" style="width: 15%;">
+           <col span="1" style="width: 16%;">
+           <col span="1" style="width: 18%;">
+        </colgroup>
+
+    <!-- Put <thead>, <tbody>, and <tr>'s here! -->
+        <tbody>
+            <tr>
+                <th></th>
+                <th>{% blocktrans %}Period{% endblocktrans %}</th>
+                <th>{% blocktrans %}Start period
+                    balance{% endblocktrans %} <a class="noclick" id="id_tooltip1" href="#" data-toggle="tooltip" data-placement="right"
+                            title="
+                            {% blocktrans %}Your points at the start of the period. This is equal to End Period Wealth of the previous period.{% endblocktrans %}">
+                        ?
+                    </a>
+                </th>
+                <th>{% blocktrans %}Income{% endblocktrans %}
+                    <a class="noclick" id="id_tooltip2" href="#" data-toggle="tooltip" data-placement="right"
+                            title="
+                            {% blocktrans %}Your points earned in the period{% endblocktrans %}">
+                        ?
+                    </a>
+                </th>
+                <th>{% blocktrans %}Spending{% endblocktrans %}
+                    <a class="noclick" id="id_tooltip3" href="#" data-toggle="tooltip" data-placement="right"
+                            title="
+                            {% blocktrans %}Points you decided to spend (with the slider above) in the period{% endblocktrans %}">
+                        ?
+                    </a>
+                </th>
+                <th>{% blocktrans%}End period balance{% endblocktrans %}
+                    <a class="noclick" id="id_tooltip4" href="#" data-toggle="tooltip" data-placement="right"
+                            title="
+                            {% blocktrans %}Points you own at the end of the period. The value is equal to Start Period Wealth + Income - Spending.{% endblocktrans %}">
+                        ?
+                    </a>
+                </th>
+                <th>{% blocktrans %}Reward (in Eurocents){% endblocktrans %}
+                    <a class="noclick" id="id_tooltip5" href="#" data-toggle="tooltip" data-placement="right"
+                            title="
+                            {% blocktrans %}Eurocents purchased as rewards in the period, based on your points Spending decision. For more information, click the button ´´Spending´´ at bottom of the page.{% endblocktrans %}">
+                        ?
+                    </a>
+                </th>
+            </tr>
+            <tr>
+                <td>&#10146;</td>
+                <td>1</td>
+                <td>{{ wealth1 }}</td>
+                <td>{{ income1 }}</td>
+                <td><span id="demo_spend1_1"></span></td>
+                <td><span id="demo_wealth2_1"></span></td>
+                <td><span id="demo_points1_1"></span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>2</td>
+                <td><span id="demo_wealth2_2"></span></td>
+                <td>10 {% blocktrans %}or{% endblocktrans %} 30</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td> <td>3</td> <td></td> <td>20 {% blocktrans %}or{% endblocktrans %} 40</td> <td></td> <td></td> <td></td>
+            </tr>
+            <tr>
+                <td></td> <td>4</td> <td></td> <td>30 {% blocktrans %}or{% endblocktrans %} 50</td> <td></td> <td></td> <td></td>
+            </tr>
+            <tr>
+                <td></td> <td>5</td> <td></td> <td>40 {% blocktrans %}or{% endblocktrans %} 60</td> <td></td> <td></td> <td></td>
+            </tr>
+            <tr>
+                <td></td> <td>6</td> <td></td> <td>50 {% blocktrans %}or{% endblocktrans %} 70</td> <td></td> <td></td> <td></td>
+            </tr>
+            <tr>
+                <td></td> <td>7</td> <td></td> <td>60 {% blocktrans %}or{% endblocktrans %} 80</td> <td></td> <td></td> <td></td>
+            </tr>
+            <tr>
+                <td></td> <td>8</td> <td></td> <td>70 {% blocktrans %}or{% endblocktrans %} 90</td> <td></td> <td></td> <td></td>
+            </tr>
+            <tr>
+                <td></td> <td>9</td> <td></td> <td>80 {% blocktrans %}or{% endblocktrans %} 100</td> <td></td> <td></td> <td></td>
+            </tr>
+            <tr>
+                <td></td> <td>10</td> <td></td> <td>90 {% blocktrans %}or{% endblocktrans %} 110</td> <td></td> <td></td> <td></td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: left"><b> &nbsp; {% blocktrans %}Total life reward{% endblocktrans %}</b>
+                    <a class="noclick" id="id_tooltip6" href="#" data-toggle="tooltip" data-placement="right"
+                            title="
+                            {% blocktrans %}Sum of Eurocents in all periods you have played. If this sum is a negative number, it will be adjusted to zero.{% endblocktrans %}">
+                        <b>?</b>
+                    </a></td>
+                <td></td> <td></td> <td></td> <td><span id="demo_points1_total"></span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    {% next_button %}
+
+    {% if round_bar == 1 %}
+        {% if treatment == 'borrow_first' %}
+             <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="32"
+                    aria-valuemin="0" aria-valuemax="100" style="width:32%">
+                    <span class="sr-only">32% Complete</span>
+                </div>
+            </div>
+        {% elif treatment == 'save_first' %}
+             <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="65"
+                    aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                    <span class="sr-only">65% Complete</span>
+                </div>
+             </div>
+        {% endif %}
+    {% elif round_bar == 2 %}
+        {% if treatment == 'borrow_first' %}
+             <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="47"
+                    aria-valuemin="0" aria-valuemax="100" style="width:47%">
+                    <span class="sr-only">47% Complete</span>
+                </div>
+            </div>
+        {% elif treatment == 'save_first' %}
+             <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="79"
+                    aria-valuemin="0" aria-valuemax="100" style="width:79%">
+                    <span class="sr-only">79% Complete</span>
+                </div>
+             </div>
+        {% endif %}
+    {% endif %}
+    <br>
+
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Instruction')">{% blocktrans %}Instruction{% endblocktrans %}</button>
+        <button class="tablinks" onclick="openCity(event, 'Income')">{% blocktrans %}Income{% endblocktrans %}</button>
+        <button class="tablinks" onclick="openCity(event, 'Spending')">{% blocktrans %}Spending{% endblocktrans %}</button>
+        <button class="tablinks" onclick="openCity(event, 'Account')">{% blocktrans %}Account balance{% endblocktrans %}</button>
+        <button class="tablinks" onclick="openCity(event, 'Reward')">{% blocktrans %}Your reward{% endblocktrans %}</button>
+    </div>
+
+    <div id="Instruction" class="tabcontent">
+        <p>{% blocktrans %}Please click the other tabs to check the instruction if you want.{% endblocktrans %}</p>
+    </div>
+
+    <div id="Income" class="tabcontent">
+        <p>{% blocktrans %}In each period, you will earn Income (represented in points).
+            This income can be high or low as shown in the table below.{% endblocktrans %}</p>
+
+        <table id="info_table" style="width: 33%">
+            <colgroup>
+               <col span="1" style="width: 3%;">
+               <col span="1" style="width: 15%;">
+               <col span="1" style="width: 15%;">
+            </colgroup>
+
+        <!-- Put <thead>, <tbody>, and <tr>'s here! -->
+            <tbody>
+                <tr>
+                    <th>{% blocktrans %}Period{% endblocktrans %}</th>
+                    <th>{% blocktrans %}Low income (points){% endblocktrans %}</th>
+                    <th>{% blocktrans %}High income (points){% endblocktrans %}</th>
+                </tr>
+                <tr>
+                    <td>1</td> <td>0</td> <td>20</td>
+                </tr>
+                <tr>
+                    <td>2</td> <td>10</td> <td>30</td>
+                </tr>
+                <tr>
+                    <td>3</td> <td>20</td> <td>40</td>
+                </tr>
+                <tr>
+                    <td>4</td> <td>30</td> <td>50</td>
+                </tr>
+                <tr>
+                    <td>5</td> <td>40</td> <td>60</td>
+                </tr>
+                <tr>
+                    <td>6</td> <td>50</td> <td>70</td>
+                </tr>
+                <tr>
+                    <td>7</td> <td>60</td> <td>80</td>
+                </tr>
+                <tr>
+                    <td>8</td> <td>70</td> <td>90</td>
+                </tr>
+                <tr>
+                    <td>9</td> <td>80</td> <td>100</td>
+                </tr>
+                <tr>
+                    <td>10</td> <td>90</td> <td>110</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+
+        <p>{% blocktrans %}Whether you get a high or a low income is decided by the computer as illustrated below.
+        The chances that a high or a low income is selected are equal.{% endblocktrans %}</p>
+
+        <script src="{% static 'TweenMax.min.js' %}"></script>
+        <script src="{% static 'Winwheel.min.js' %}"></script>
+        <link href="{% static 'shCoreDefault.css' %}" rel="stylesheet">
+
+    <table width="50%">
+        <tr>
+            <div style="position: absolute">
+                <td align="left" >
+                    <img src="{% static 'arrow1.png' %}" width="320" height="20" style="position: relative;
+                        z-index: 1" />
+                    <canvas id="imgCanvas" class="tutCanvas" width="320" height="220" style="position: relative;
+                        z-index: 0">
+                    </canvas>
+                </td>
+            </div>
+        </tr>
+    </table>
+
+    <script>
+        // Create the wheel
+        let planeWheel = new Winwheel({
+            'canvasId' : 'imgCanvas',
+            'drawMode' : 'image'                // drawMode must be set to image.
+        });
+
+        // Create new image object in memory.
+        let loadedImg = new Image();
+
+        // Create onLoad callback to execute once the image has finished loading.
+        loadedImg.onload = function()
+        {
+            planeWheel.wheelImage = loadedImg;    // Make wheelImage equal the loaded image object.
+            planeWheel.draw();                    // Also call draw function to render the wheel.
+            beginAnimation();
+        };
+
+        // Set the image source, once complete this will trigger the onLoad callback (above).
+        if ({{ lang|json }} == 'en') {
+            loadedImg.src = "{% static 'wheel3.png' %}";
+        }
+        if ({{ lang|json }} == 'de') {
+            loadedImg.src = "{% static 'wheel3_de.png' %}";
+        }
+
+        function beginAnimation()
+        {
+            // Add listener for the tick of the animation timer.
+            TweenLite.ticker.addEventListener("tick", gameLoop);
+
+            // Add repeating tween to rotate the wheel.
+            TweenMax.to(planeWheel, 3, {rotationAngle:360, delay:2, repeat:-1, ease:Linear.easeNone});
+        }
+
+        function gameLoop()
+        {
+            planeWheel.draw();
+        }
+    </script>
+    </div>
+
+    <div id="Spending" class="tabcontent">
+        <p>{% blocktrans %}In each period of your life, you will decide how much to spend (in points).
+            Your <b>Spending</b> (in points) in each period determines your <b>Rewards</b> (in Eurocents)
+            for that period according to the blue line in the graph below.{% endblocktrans %}</p>
+
+        <img id="graph" width="500" height="auto" />
+        <br><br>
+
+        <p>{% blocktrans %}For example, if you decide to spend 150 points in one period,
+            your Reward for that period will be 364 Eurocents.{% endblocktrans %}</p>
+
+        <p>{% blocktrans %}In each period, you will be able to see what happens to your <b>Eurocent Rewards</b> when you change your <b>Spending</b>.{% endblocktrans %}</p>
+
+        <script>
+            if ({{ lang|json }} == 'de') {
+                document.getElementById('graph').src = "{% static 'graph_de_new.png' %}";
+            }
+            if ({{ lang|json }} == 'en') {
+                document.getElementById('graph').src = "{% static 'graph.png' %}";
+            }
+        </script>
+    </div>
+
+    <div id="Account" class="tabcontent">
+        <p>{% blocktrans %}For each period in your life, we calculate your balance (in points):
+        <br>
+        <b>$$ \text{End Balance}=\text{Start Balance}+\text{Income}-\text{Spending} $$</b>{% endblocktrans %}</p>
+
+        <p>{% blocktrans %}In the first period, the <b>Start Balance</b> is 0.
+            In each of the following periods, the <b>Start Balance</b> is the <b>End Balance</b> of the previous period.{% endblocktrans %}</p>
+
+        <p>{% blocktrans %}During your life, your <b>End Balance</b> can be positive or negative.
+            In the last period of each life (period 10), your <b>End Balance</b> must be zero.
+            For this reason, your <b>Spending</b> in period 10 will be calculated automatically.{% endblocktrans %}</p>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default"></script>
+    </div>
+
+    <div id="Reward" class="tabcontent">
+        <p>{% blocktrans %}In each period, your <b>Reward</b> increases with your <b>Spending</b> as explained before.
+            However, if in the last period of your life (period 10) your <b>End Balance</b> is <b>negative</b>,
+            your <b>Eurocent Reward</b> in this period will be <b>negative</b>,
+            even if your <b>Spending</b> is 0 (see graph below).{% endblocktrans %}</p>
+
+        <img id="graph1" width="500" height="auto" />
+
+        <p>{% blocktrans %}For example, if your End Balance in Period 10 is -60 points,
+            your Reward for that period will be -904 Eurocents.{% endblocktrans %}</p>
+
+        <p>{% blocktrans %}To determine your Reward for the Investment Game, for each of your lives,
+            we first sum the <b>Eurocent Rewards</b> over the 10 periods.
+            Then, at the end of the Investment Game, we let the computer randomly choose one of your lives.
+            The <b>Eurocent Rewards</b> that you have gathered in the selected life will be your additional compensation.{% endblocktrans %}</p>
+
+        <script>
+            if ({{ lang|json }} == 'de') {
+                document.getElementById('graph1').src = "{% static 'graph1_de_new.png' %}";
+            }
+            if ({{ lang|json }} == 'en') {
+                document.getElementById('graph1').src = "{% static 'graph1_en.png' %}";
+            }
+        </script>
+    </div>
+
+    <script>
+    function openCity(evt, cityName) {
+        event.preventDefault();
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    // document.getElementById("defaultOpen").click();
+    </script>
+
+    <script>
+        // Set up
+        var slider_spend1 = document.getElementById('slider_spend1');
+        var spend1_output = document.getElementById('myRange_spend1');
+        var check_spend1_output = document.getElementById('id_check_spend1');
+        //var slider1Value = document.getElementById('demo_spend1');
+        var slider1Value_1 = document.getElementById('demo_spend1_1');
+        var income1 = {{ income1|json }};
+        var wealth1 = {{ wealth1|json }};
+        //var points1 = document.getElementById('demo_points1');
+        var points1_1 = document.getElementById('demo_points1_1');
+        var points1_total = document.getElementById('demo_points1_total');
+        //var saving1 = document.getElementById('demo_saving1');
+        //var wealth2 = document.getElementById('demo_wealth2');
+        var wealth2_1 = document.getElementById('demo_wealth2_1');
+        var wealth2_2 = document.getElementById('demo_wealth2_2');
+
+        // Initializing the sliders
+        noUiSlider.create(slider_spend1, {
+        start: 0,
+        step: 1,
+        format: wNumb({decimals: 0}),
+        tooltips: wNumb({decimals: 0}),
+        // Disable animation on value-setting,
+        // so the sliders respond immediately.
+        animate: false,
+        range: {
+            'min': 0,
+            'max': 300
+        },
+        pips: {
+            mode: 'values',
+            values: [0, 50, 100, 150, 200, 250, 300],
+            density: 100
+        }
+        });
+
+        // Update the input formfield values with the slider values
+        slider_spend1.noUiSlider.on('update', function (values, handle) {
+            spend1_output.value = values[handle];
+        });
+
+        /* Show and update the slider value only when the handle is touched */
+        slider_spend1.noUiSlider.on('slide', function () {
+            slider_spend1.noUiSlider.on('update', function (values, handle) {
+            //slider1Value.innerHTML = values[handle];
+            slider1Value_1.innerHTML = values[handle];
+
+            var points_value = 250 * (1 - Math.exp(-0.02 * values[handle])) * 1.5589;
+            //points1.innerHTML = points_value.toFixed(0);
+            points1_1.innerHTML = points_value.toFixed(0);
+            points1_total.innerHTML = points_value.toFixed(0);
+            //saving1.innerHTML = income1 - values[handle];
+            //wealth2.innerHTML = wealth1 + income1 - values[handle];
+            wealth2_1.innerHTML = wealth1 + income1 - values[handle];
+            wealth2_2.innerHTML = wealth1 + income1 - values[handle];
+            });
+        });
+
+        $(document).ready(function () {
+            var handle_style1 = document.getElementById("slider_spend1").querySelector('.noUi-handle');
+            slider_spend1.noUiSlider.on('slide', function () {
+                handle_style1.style.display = 'block';
+                handle_style1.style.background = '#007bff';
+                check_spend1_output.value = 1;
+            });
+        });
+
+        $(document).ready(function() {
+            $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+        });
+    </script>
+
+    <style>
+        .otree-form-errors {
+            visibility: hidden;
+            display: none;
+        }
+        .otree-title {
+            display: none;
+        }
+        .noUi-slide {
+            width: 100%; /* Width of the outside container */
+        }
+
+        /* The value of handle shows only when touching the handle. */
+        .noUi-tooltip {
+            display: none;
+        }
+        .noUi-active .noUi-tooltip {
+            display: block;
+        }
+        .noUi-handle {
+            display: none;
+        }
+        .noUi-pips {
+            top: 9px;
+        }
+        .noUi-value {
+            margin-top: -8px;
+        }
+        .noUi-marker-horizontal.noUi-marker-large {
+            height: 10px;
+        }
+
+        #info_table {
+          {#font-family: Arial, Helvetica, sans-serif;#}
+          border-collapse: collapse;
+          width: 70%;
+        }
+
+        #info_table th{
+            border: 1px solid #ddd;
+            border-left: none;
+            border-right: none;
+            padding: 6px;
+            text-align: center;
+        }
+
+        #info_table td{
+            border: 1px solid #ddd;
+            border-left: none;
+            border-right: none;
+            {#padding: 8px;#}
+            text-align: center;
+            height: 14px;
+        }
+
+        #info_table tr:nth-child(even){background-color: #f2f2f2;}
+
+        #info_table tr:hover {background-color: #ddd;}
+
+        #id_tooltip1, #id_tooltip2, #id_tooltip3, #id_tooltip4, #id_tooltip5, #id_tooltip6 {
+            border-style: solid;
+            border-color: black;
+            border-radius: 2px;
+            padding: 1px;
+            text-decoration: none;
+            cursor: default
+        }
+
+        /* Style the tab */
+        .tab {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+        }
+
+        /* Style the buttons inside the tab */
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 17px;
+        }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+            background-color: #ddd;
+        }
+
+        /* Create an active/current tablink class */
+        .tab button.active {
+            background-color: #ccc;
+        }
+
+        /* Style the tab content */
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-top: none;
+        }
+    </style>
+{% endblock %}
