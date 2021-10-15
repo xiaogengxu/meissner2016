@@ -6,7 +6,7 @@ SESSION_CONFIGS = [
     {
         'name': 'Meissner2016',
         'display_name': 'Meissner2016',
-        'num_demo_participants': 100,
+        'num_demo_participants': 20,
         'app_sequence': ['instructions', 'trial_borrow', 'trial_save', 'quiz', 'borrow', 'save', 'post_survey',
                          'result'],
         'language': 'de',
@@ -37,7 +37,7 @@ ROOMS = [
         display_name='Econ 101 class',
         participant_label_file='_rooms/econ101.txt',
     ),
-    dict(name='live_demo', display_name='Room for live demo (no participant labels)'),
+    dict(name='game', display_name='Room for live demo (no participant labels)'),
 ]
 
 ADMIN_USERNAME = 'admin'

@@ -6,13 +6,6 @@ from .generic_pages import Page
 from django.utils.translation import ugettext_lazy as _
 
 
-class Start(Page):
-    form_model = 'player'
-
-    def is_displayed(self):
-        return self.participant.vars['time_instruction'] >= 60
-
-
 class Quiz_borrow(Page):
     form_model = 'player'
     form_fields = ['quiz1', 'quiz2', 'quiz3', 'quiz4', 'quiz5', 'quiz6']
@@ -454,5 +447,5 @@ class End_q6(Page):
         self.participant.vars['end'] = 1
 
 
-page_sequence = [Start, Quiz_borrow, Quiz_save, End_attempt1, Quiz_q1, End_q1, Quiz_q2_borrow, Quiz_q2_save, End_q2,
+page_sequence = [Quiz_borrow, Quiz_save, End_attempt1, Quiz_q1, End_q1, Quiz_q2_borrow, Quiz_q2_save, End_q2,
                  Quiz_q3, End_q3, Quiz_q4, End_q4, Quiz_q5, End_q5, Quiz_q6, End_q6]

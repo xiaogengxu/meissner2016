@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-15 23:03+0300\n"
+"POT-Creation-Date: 2021-10-15 23:33+0300\n"
 "PO-Revision-Date: 2021-10-15 23:14+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -51,15 +51,15 @@ msgstr ""
 "Einkommen 40 und Ihre Ausgaben 70. Wie hoch ist Ihr Endguthaben in dieser "
 "Periode?"
 
-#: .\quiz\pages.py:29 .\quiz\pages.py:104 .\quiz\pages.py:218
+#: .\quiz\pages.py:29 .\quiz\pages.py:104 .\quiz\pages.py:226
 msgid "In Points"
 msgstr "In Punkten"
 
-#: .\quiz\pages.py:29 .\quiz\pages.py:104 .\quiz\pages.py:218
+#: .\quiz\pages.py:29 .\quiz\pages.py:104 .\quiz\pages.py:226
 msgid "In Coins"
 msgstr "In Münzen"
 
-#: .\quiz\pages.py:29 .\quiz\pages.py:104 .\quiz\pages.py:218
+#: .\quiz\pages.py:29 .\quiz\pages.py:104 .\quiz\pages.py:226
 msgid "In US Dollars"
 msgstr "In US-Dollars"
 
@@ -95,13 +95,13 @@ msgstr "Das Startguthaben in der ersten Periode beträgt 20"
 msgid "Please answer all questions."
 msgstr "Bitte beantworten Sie alle Fragen."
 
-#: .\quiz\pages.py:194 .\quiz\pages.py:230 .\quiz\pages.py:253
-#: .\quiz\pages.py:289 .\quiz\pages.py:331 .\quiz\pages.py:370
-#: .\quiz\pages.py:410
+#: .\quiz\pages.py:198 .\quiz\pages.py:238 .\quiz\pages.py:261
+#: .\quiz\pages.py:301 .\quiz\pages.py:347 .\quiz\pages.py:390
+#: .\quiz\pages.py:434
 msgid "Please answer the question."
 msgstr "Bitte beantworten Sie die Frage."
 
-#: .\quiz\pages.py:241
+#: .\quiz\pages.py:249
 msgid "Points"
 msgstr "In Punkten"
 
@@ -265,8 +265,8 @@ msgstr ""
 msgid ""
 "For each period in your life, we calculate your balance (in points):\n"
 "        <br>\n"
-"        <b>$$ \\text{End Balance}=\\text{Start Balance}+\\text{Income}-"
-"\\text{Spending} $$</b>"
+"        <b>$$ \\text{End Balance}=\\text{Start Balance}+\\text{Income}-\\text"
+"{Spending} $$</b>"
 msgstr ""
 "Für jede Periode Ihres simulierten Lebens berechnen wir Ihr Guthaben (in "
 "Punkten) wie folgt:\n"
@@ -448,8 +448,8 @@ msgid ""
 "Hint: <br>\n"
 "    For each period in your life, we calculate your balance (in points):\n"
 "    <br>\n"
-"    <b>$$ \\text{End Balance}=\\text{Start Balance}+\\text{Income}-"
-"\\text{Spending} $$</b>"
+"    <b>$$ \\text{End Balance}=\\text{Start Balance}+\\text{Income}-\\text"
+"{Spending} $$</b>"
 msgstr ""
 "Hinweis: <br>\n"
 "    Für jede Periode Ihres simulierten Lebens berechnen wir Ihr Guthaben (in "
