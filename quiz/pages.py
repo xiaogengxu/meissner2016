@@ -6,6 +6,13 @@ from .generic_pages import Page
 from django.utils.translation import ugettext_lazy as _
 
 
+class Start(Page):
+    form_model = 'player'
+
+    def is_displayed(self):
+        return self.participant.vars['time_instruction'] >= 60
+
+
 class Quiz_borrow(Page):
     form_model = 'player'
     form_fields = ['quiz1', 'quiz2', 'quiz3', 'quiz4', 'quiz5', 'quiz6']
@@ -164,6 +171,10 @@ class End_attempt1(Page):
                       + self.participant.vars['mis_q4']+self.participant.vars['mis_q5']+self.participant.vars['mis_q6']
         return sum_mistake > 1 and self.participant.vars['time_instruction'] >= 60
 
+    def js_vars(self):
+        username_value = self.participant.label
+        return dict(url='https://survey.maximiles.com/quality?p=73952&m='+username_value)
+
     def before_next_page(self):
         self.participant.vars['end'] = 1
 
@@ -198,6 +209,10 @@ class End_q1(Page):
                       + self.participant.vars['mis_q4']+self.participant.vars['mis_q5']+self.participant.vars['mis_q6']
         return sum_mistake == 1 and self.participant.vars['mis_q1'] == 1 and self.player.quiz1 != '10' \
                and self.participant.vars['time_instruction'] >= 60
+
+    def js_vars(self):
+        username_value = self.participant.label
+        return dict(url='https://survey.maximiles.com/quality?p=73952&m='+username_value)
 
     def before_next_page(self):
         self.participant.vars['end'] = 1
@@ -258,6 +273,10 @@ class End_q2(Page):
         return sum_mistake == 1 and self.participant.vars['mis_q2'] == 1 and self.player.quiz2 != 'points' \
                and self.participant.vars['time_instruction'] >= 60
 
+    def js_vars(self):
+        username_value = self.participant.label
+        return dict(url='https://survey.maximiles.com/quality?p=73952&m='+username_value)
+
     def before_next_page(self):
         self.participant.vars['end'] = 1
 
@@ -298,6 +317,10 @@ class End_q3(Page):
         return sum_mistake == 1 and self.participant.vars['mis_q3'] == 1 and self.player.quiz3 != '246' \
                and self.participant.vars['time_instruction'] >= 60
 
+    def js_vars(self):
+        username_value = self.participant.label
+        return dict(url='https://survey.maximiles.com/quality?p=73952&m='+username_value)
+
     def before_next_page(self):
         self.participant.vars['end'] = 1
 
@@ -335,6 +358,10 @@ class End_q4(Page):
                       + self.participant.vars['mis_q4']+self.participant.vars['mis_q5']+self.participant.vars['mis_q6']
         return sum_mistake == 1 and self.participant.vars['mis_q4'] == 1 and self.player.quiz4 != 'sum_cent' \
                and self.participant.vars['time_instruction'] >= 60
+
+    def js_vars(self):
+        username_value = self.participant.label
+        return dict(url='https://survey.maximiles.com/quality?p=73952&m='+username_value)
 
     def before_next_page(self):
         self.participant.vars['end'] = 1
@@ -379,6 +406,10 @@ class End_q5(Page):
         return sum_mistake == 1 and self.participant.vars['mis_q5'] == 1 and self.player.quiz5 != 'end_negative' \
                and self.participant.vars['time_instruction'] >= 60
 
+    def js_vars(self):
+        username_value = self.participant.label
+        return dict(url='https://survey.maximiles.com/quality?p=73952&m='+username_value)
+
     def before_next_page(self):
         self.participant.vars['end'] = 1
 
@@ -415,9 +446,13 @@ class End_q6(Page):
         return sum_mistake == 1 and self.participant.vars['mis_q6'] == 1 and self.player.quiz6 != '30' \
                and self.participant.vars['time_instruction'] >= 60
 
+    def js_vars(self):
+        username_value = self.participant.label
+        return dict(url='https://survey.maximiles.com/quality?p=73952&m='+username_value)
+
     def before_next_page(self):
         self.participant.vars['end'] = 1
 
 
-page_sequence = [Quiz_borrow, Quiz_save, End_attempt1, Quiz_q1, End_q1, Quiz_q2_borrow, Quiz_q2_save, End_q2, Quiz_q3,
-                 End_q3, Quiz_q4, End_q4, Quiz_q5, End_q5, Quiz_q6, End_q6]
+page_sequence = [Start, Quiz_borrow, Quiz_save, End_attempt1, Quiz_q1, End_q1, Quiz_q2_borrow, Quiz_q2_save, End_q2,
+                 Quiz_q3, End_q3, Quiz_q4, End_q4, Quiz_q5, End_q5, Quiz_q6, End_q6]

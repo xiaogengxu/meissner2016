@@ -77,8 +77,8 @@ class Instruct4(Page):
         end_datetime = datetime.datetime.now()
         start_time = self.participant.vars['start_time']
         self.player.time_instruction = round((end_datetime - start_time).total_seconds())
-        # self.participant.vars['time_instruction'] = round((end_datetime - start_time).total_seconds())
-        self.participant.vars['time_instruction'] = 60
+        self.participant.vars['time_instruction'] = round((end_datetime - start_time).total_seconds())
+        # self.participant.vars['time_instruction'] = 60
 
 
 class End_instruct(Page):
@@ -89,7 +89,7 @@ class End_instruct(Page):
 
     def js_vars(self):
         username_value = self.participant.label
-        return dict(url='https://survey.maximiles.com/complete?p=73952_f6efdde9&m=%SPM_PANELIST_ID%')
+        return dict(url='https://survey.maximiles.com/screenout?p=73952&m='+username_value)
 
 
 page_sequence = [Lang, Intro, Instruct0, Instruct1_borrow, Instruct1_save, Instruct2, Instruct3, Instruct4,

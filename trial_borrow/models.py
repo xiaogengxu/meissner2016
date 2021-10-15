@@ -36,8 +36,8 @@ class Subsession(BaseSubsession):
             return income_num
 
         for player in self.get_players():
+            player.participant.vars['wealth1'] = 0
             for j in range(1, 11):
-                player.participant.vars['wealth1'] = 0
                 income = myfun(j)
                 str_income = 'income%s' % j
                 setattr(player, str_income, income)

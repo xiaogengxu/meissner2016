@@ -13,7 +13,7 @@
 
     <p>{% blocktrans %}Therefore, we regret to inform that you are unable to continue.{% endblocktrans %}</p>
 
-    <button class="otree-btn-next btn btn-primary" id="btn1">{% blocktrans %}Finish{% endblocktrans %}</button>
+    <button class="otree-btn-next btn btn-primary" id="btn1" onclick="NewTab()">{% blocktrans %}Finish{% endblocktrans %}</button>
 
     <br></br>
 
@@ -23,5 +23,17 @@
             <span class="sr-only">100% Complete</span>
         </div>
     </div>
+
+    <script>
+        function NewTab() {
+            window.open(js_vars.url, "_blank");
+        }
+    </script>
+
+    <style>
+        .otree-title {
+            display: none;
+        }
+    </style>
 
 {% endblock %}

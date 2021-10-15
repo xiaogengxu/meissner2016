@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-13 19:53+0300\n"
+"POT-Creation-Date: 2021-10-15 23:03+0300\n"
 "PO-Revision-Date: 2021-09-06 14:04+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -18,9 +18,9 @@ msgstr ""
 "Language: de\n"
 "X-Generator: Poedit 2.4.2\n"
 
-#: .\borrow\pages.py:34 .\borrow\pages.py:69 .\borrow\pages.py:118
-#: .\borrow\pages.py:178 .\borrow\pages.py:249 .\borrow\pages.py:331
-#: .\borrow\pages.py:424 .\borrow\pages.py:528 .\borrow\pages.py:643
+#: .\borrow\pages.py:44 .\borrow\pages.py:81 .\borrow\pages.py:132
+#: .\borrow\pages.py:194 .\borrow\pages.py:267 .\borrow\pages.py:351
+#: .\borrow\pages.py:446 .\borrow\pages.py:552 .\borrow\pages.py:669
 msgid "Please decide the amount you would like to spend."
 msgstr "Bitte entscheiden Sie sich für den Betrag, den Sie ausgeben möchten."
 

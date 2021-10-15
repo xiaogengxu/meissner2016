@@ -192,7 +192,7 @@ class Timeout(Page):
 
     def js_vars(self):
         username_value = self.participant.label
-        return dict(url='https://survey.maximiles.com/complete?p=73952_f6efdde9&m=%SPM_PANELIST_ID%')
+        return dict(url='https://survey.maximiles.com/speeder?p=73952&m='+username_value)
 
 
 page_sequence = [Result, Result_nodelay, Timeout]

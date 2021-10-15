@@ -35,8 +35,8 @@ class Subsession(BaseSubsession):
 
         for r in range(1, 3):
             for player in self.in_round(r).get_players():
+                player.participant.vars['wealth1'] = 0
                 for j in range(1, 11):
-                    player.participant.vars['wealth1'] = 0
                     income = myfun(j)
                     str_income = 'income%s' % j
                     setattr(player.in_round(r), str_income, income)

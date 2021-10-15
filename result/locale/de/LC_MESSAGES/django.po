@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-13 19:53+0300\n"
-"PO-Revision-Date: 2021-10-07 17:14+0300\n"
+"POT-Creation-Date: 2021-10-15 23:03+0300\n"
+"PO-Revision-Date: 2021-10-15 23:27+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -18,15 +18,15 @@ msgstr ""
 "Language: de\n"
 "X-Generator: Poedit 2.4.2\n"
 
-#: .\result\pages.py:68
+#: .\result\pages.py:74
 msgid "in 1 month"
 msgstr "in 1 Monaten"
 
-#: .\result\pages.py:72
+#: .\result\pages.py:78
 msgid "in 2 months"
 msgstr "in 2 Monaten"
 
-#: .\result\pages.py:76
+#: .\result\pages.py:82
 msgid "in 3 months"
 msgstr "in 3 Monaten"
 
@@ -47,7 +47,8 @@ msgid ""
 "For additional compensation, Life %(round_chosen_string)s was chosen.\n"
 "        Your reward on that life was %(points_total)s Euro."
 msgstr ""
-"Für Ihre zusätzliche Vergütung wurde Leben %(round_chosen_string)s gewählt.\n"
+"Für Ihre zusätzliche Vergütung wurde Leben %(round_chosen_string)s "
+"gewählt.\n"
 "        Ihre Belohnung in diesem Leben war %(points_total)s Euro."
 
 #: .\result\templates\result\Result.html:20
@@ -60,10 +61,11 @@ msgid ""
 "        You get %(earn_invest)s Euro from the investment.\n"
 "        Your total reward is %(total)s Euro."
 msgstr ""
-"Sie haben entschieden, %(risk_choice)s%% von Ihrer Belohnung (oder %(invest)"
-"s Euro) in die risikoreiche Anlage zu investieren. Das Ergebnis der "
-"risikoreichen Anlage ist «%(risk_outcome)s». Sie bekommen %(earn_invest)s "
-"Euro mit dieser Investition. Ihre Belohnung beträgt neu %(total)s Euro."
+"Sie haben entschieden, %(risk_choice)s%% von Ihrer Belohnung (oder "
+"%(invest)s Euro) in die risikoreiche Anlage zu investieren. Das Ergebnis "
+"der risikoreichen Anlage ist «%(risk_outcome)s». Sie bekommen "
+"%(earn_invest)s Euro mit dieser Investition. Ihre Belohnung beträgt neu "
+"%(total)s Euro."
 
 #: .\result\templates\result\Result.html:27
 #, python-format
@@ -79,8 +81,26 @@ msgstr ""
 
 #: .\result\templates\result\Result.html:34
 #: .\result\templates\result\Result_nodelay.html:28
+#: .\result\templates\result\Timeout.html:22
 msgid "Finish"
 msgstr "Fertig"
+
+#: .\result\templates\result\Timeout.html:11
+msgid "Long breaks"
+msgstr "Zu viele bzw. zu lange Pausen"
+
+#: .\result\templates\result\Timeout.html:15
+msgid ""
+"Unfortunately, you are taking very long breaks.\n"
+"            The simulation needs to be completed in a reasonable amount of "
+"time, as informed in the introduction page.\n"
+"            Thus, we regret to inform that you are unable to continue "
+"participating in the simulation."
+msgstr ""
+"Wir danken Ihnen für Ihre Teilnahme. Sie müssen in dieser Simulation "
+"Entscheidungen ohne große zeitliche Unterbrüche treffen, wie das zu Beginn "
+"angekündigt wurde. Da das gemäß unserer Messung nicht zutrifft, müssen wir "
+"Sie leider aus der Simulation ausschließen."
 
 #~ msgid "after 1 month"
 #~ msgstr "in 1 Monaten"

@@ -19,7 +19,7 @@
         {% blocktrans %}You will earn your basic participation fee after clicking on Finish.{% endblocktrans %}
     </p>
 
-    <button class="otree-btn-next btn btn-primary">{% blocktrans %}Finish{% endblocktrans %}</button>
+    <button class="otree-btn-next btn btn-primary" onclick="NewTab()">{% blocktrans %}Finish{% endblocktrans %}</button>
 
     <br></br>
 
@@ -29,6 +29,12 @@
             <span class="sr-only">100% Complete</span>
         </div>
     </div>
+
+    <script>
+        function NewTab() {
+            window.open(js_vars.url, "_blank");
+        }
+    </script>
 
     <style>
         .otree-title {
