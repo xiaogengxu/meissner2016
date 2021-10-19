@@ -35,4 +35,4 @@ class Group(BaseGroup):
 
 
 class Player(BasePlayer):
-    pass
+    finished = models.StringField(blank=True)

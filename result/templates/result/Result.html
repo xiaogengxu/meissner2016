@@ -31,6 +31,7 @@
 
     <br>
 
+    <input type="hidden" name="finished" value="" id="finished"/>
     <button class="otree-btn-next btn btn-primary" onclick="NewTab()">{% blocktrans %}Finish{% endblocktrans %}</button>
 
     <br></br>
@@ -45,6 +46,7 @@
     <script>
         function NewTab() {
             window.open(js_vars.url, "_blank");
+            document.getElementById('finished').value = '1';
         }
     </script>
 

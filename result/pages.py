@@ -12,6 +12,7 @@ def get_timeout_seconds(player):
 
 class Result(Page):
     form_model = 'player'
+    form_fields = ['finished']
     get_timeout_seconds = get_timeout_seconds
 
     def is_displayed(self):
@@ -107,6 +108,7 @@ class Result(Page):
 
 class Result_nodelay(Page):
     form_model = 'player'
+    form_fields = ['finished']
     get_timeout_seconds = get_timeout_seconds
 
     def is_displayed(self):
