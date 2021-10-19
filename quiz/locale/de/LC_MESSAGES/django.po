@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-15 23:33+0300\n"
+"POT-Creation-Date: 2021-10-19 21:46+0300\n"
 "PO-Revision-Date: 2021-10-15 23:14+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -51,35 +51,35 @@ msgstr ""
 "Einkommen 40 und Ihre Ausgaben 70. Wie hoch ist Ihr Endguthaben in dieser "
 "Periode?"
 
-#: .\quiz\pages.py:29 .\quiz\pages.py:104 .\quiz\pages.py:226
+#: .\quiz\pages.py:22 .\quiz\pages.py:97 .\quiz\pages.py:219
 msgid "In Points"
 msgstr "In Punkten"
 
-#: .\quiz\pages.py:29 .\quiz\pages.py:104 .\quiz\pages.py:226
+#: .\quiz\pages.py:22 .\quiz\pages.py:97 .\quiz\pages.py:219
 msgid "In Coins"
 msgstr "In Münzen"
 
-#: .\quiz\pages.py:29 .\quiz\pages.py:104 .\quiz\pages.py:226
+#: .\quiz\pages.py:22 .\quiz\pages.py:97 .\quiz\pages.py:219
 msgid "In US Dollars"
 msgstr "In US-Dollars"
 
-#: .\quiz\pages.py:39 .\quiz\pages.py:114
+#: .\quiz\pages.py:32 .\quiz\pages.py:107
 msgid "Sum of Eurocent Rewards in one of the 4 lives"
 msgstr "Gemäß der Summe der Eurocent-Belohnungen in einem der 4 Leben"
 
-#: .\quiz\pages.py:40 .\quiz\pages.py:115
+#: .\quiz\pages.py:33 .\quiz\pages.py:108
 msgid "One Eurocent for each Income point"
 msgstr "Ein Einkommenspunkt entspricht einem Eurocent"
 
-#: .\quiz\pages.py:41 .\quiz\pages.py:116
+#: .\quiz\pages.py:34 .\quiz\pages.py:109
 msgid "Average of account Start Balance in one of the 4 lives"
 msgstr "Gemäß dem Durchschnitt des Startguthabens in einem der 4 Leben"
 
-#: .\quiz\pages.py:46 .\quiz\pages.py:121
+#: .\quiz\pages.py:39 .\quiz\pages.py:114
 msgid "Income is always the same for all periods"
 msgstr "Das Einkommen ist in allen Perioden gleich hoch"
 
-#: .\quiz\pages.py:47 .\quiz\pages.py:122
+#: .\quiz\pages.py:40 .\quiz\pages.py:115
 msgid ""
 "If your End Balance at the end of a life is negative, you will gather a "
 "negative Eurocent Rewards for that period"
@@ -87,21 +87,21 @@ msgstr ""
 "Wenn das Endguthaben in einer Periode negativ ist, wird die Eurocent-"
 "Belohnung für diese Periode negativ sein"
 
-#: .\quiz\pages.py:49 .\quiz\pages.py:124
+#: .\quiz\pages.py:42 .\quiz\pages.py:117
 msgid "The Start Balance at the first period is 20"
 msgstr "Das Startguthaben in der ersten Periode beträgt 20"
 
-#: .\quiz\pages.py:61 .\quiz\pages.py:136
+#: .\quiz\pages.py:54 .\quiz\pages.py:129
 msgid "Please answer all questions."
 msgstr "Bitte beantworten Sie alle Fragen."
 
-#: .\quiz\pages.py:198 .\quiz\pages.py:238 .\quiz\pages.py:261
-#: .\quiz\pages.py:301 .\quiz\pages.py:347 .\quiz\pages.py:390
-#: .\quiz\pages.py:434
+#: .\quiz\pages.py:191 .\quiz\pages.py:231 .\quiz\pages.py:254
+#: .\quiz\pages.py:294 .\quiz\pages.py:340 .\quiz\pages.py:383
+#: .\quiz\pages.py:427
 msgid "Please answer the question."
 msgstr "Bitte beantworten Sie die Frage."
 
-#: .\quiz\pages.py:249
+#: .\quiz\pages.py:242
 msgid "Points"
 msgstr "In Punkten"
 
@@ -458,9 +458,9 @@ msgstr ""
 "    <b>$$ \\text{Endguthaben}=\\text{Startguthaben plus Einkommen minus "
 "Ausgaben} $$</b>"
 
-#: .\quiz\templates\quiz\Start.html:12
-msgid "Before you advance to the live game, you need to complete a quiz."
-msgstr "Bevor Sie in das reale Spiel kommen, müssen Sie ein Quiz absolvieren."
+#~ msgid "Before you advance to the live game, you need to complete a quiz."
+#~ msgstr ""
+#~ "Bevor Sie in das reale Spiel kommen, müssen Sie ein Quiz absolvieren."
 
 #~ msgid ""
 #~ "Unfortunately, you did not answer all the questions of the quiz "
