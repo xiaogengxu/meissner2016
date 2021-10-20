@@ -36,3 +36,5 @@ class Group(BaseGroup):
 
 class Player(BasePlayer):
     finished = models.StringField(blank=True)
+    total_payoff = models.FloatField(blank=True)
+    total_time = models.IntegerField(blank=True)

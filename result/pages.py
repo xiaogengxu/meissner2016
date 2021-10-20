@@ -2,7 +2,7 @@ from otree.api import Currency as c, currency_range
 from ._builtin import Page, WaitPage
 from .models import Constants
 from .generic_pages import Page
-import random, time
+import random, time, datetime
 from django.utils.translation import ugettext_lazy as _
 
 
@@ -12,7 +12,7 @@ def get_timeout_seconds(player):
 
 class Result(Page):
     form_model = 'player'
-    form_fields = ['finished']
+    form_fields = ['finished', 'total_payoff', 'total_time']
     get_timeout_seconds = get_timeout_seconds
 
     def is_displayed(self):
@@ -100,6 +100,9 @@ class Result(Page):
 
     def before_next_page(self):
         self.participant.vars['finished'] = '1'
+        end_datetime = datetime.datetime.now()
+        start_time = self.participant.vars['start_time']
+        self.player.total_time = round((end_datetime - start_time).total_seconds())
 
     def js_vars(self):
         username_value = self.participant.label
@@ -108,7 +111,7 @@ class Result(Page):
 
 class Result_nodelay(Page):
     form_model = 'player'
-    form_fields = ['finished']
+    form_fields = ['finished', 'total_payoff', 'total_time']
     get_timeout_seconds = get_timeout_seconds
 
     def is_displayed(self):
@@ -179,6 +182,9 @@ class Result_nodelay(Page):
 
     def before_next_page(self):
         self.participant.vars['finished'] = '1'
+        end_datetime = datetime.datetime.now()
+        start_time = self.participant.vars['start_time']
+        self.player.total_time = round((end_datetime - start_time).total_seconds())
 
     def js_vars(self):
         username_value = self.participant.label
