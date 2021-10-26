@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-26 18:24+0300\n"
-"PO-Revision-Date: 2021-10-15 23:14+0300\n"
+"POT-Creation-Date: 2021-10-26 19:38+0300\n"
+"PO-Revision-Date: 2021-10-26 19:46+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -52,17 +52,17 @@ msgstr ""
 "Periode?"
 
 #: .\quiz\pages.py:22 .\quiz\pages.py:97 .\quiz\pages.py:203
-#: .\quiz\pages.py:376
+#: .\quiz\pages.py:378
 msgid "In Points"
 msgstr "In Punkten"
 
 #: .\quiz\pages.py:22 .\quiz\pages.py:97 .\quiz\pages.py:203
-#: .\quiz\pages.py:376
+#: .\quiz\pages.py:378
 msgid "In Coins"
 msgstr "In Münzen"
 
 #: .\quiz\pages.py:22 .\quiz\pages.py:97 .\quiz\pages.py:203
-#: .\quiz\pages.py:376
+#: .\quiz\pages.py:378
 msgid "In US Dollars"
 msgstr "In US-Dollars"
 
@@ -98,29 +98,23 @@ msgstr "Das Startguthaben in der ersten Periode beträgt 20"
 msgid "Please answer all questions."
 msgstr "Bitte beantworten Sie alle Fragen."
 
-#: .\quiz\pages.py:244 .\quiz\pages.py:348 .\quiz\pages.py:388
-#: .\quiz\pages.py:411 .\quiz\pages.py:451 .\quiz\pages.py:497
-#: .\quiz\pages.py:540 .\quiz\pages.py:584
+#: .\quiz\pages.py:244 .\quiz\pages.py:350 .\quiz\pages.py:390
+#: .\quiz\pages.py:413 .\quiz\pages.py:453 .\quiz\pages.py:499
+#: .\quiz\pages.py:542 .\quiz\pages.py:586
 msgid "Please answer the question."
 msgstr "Bitte beantworten Sie die Frage."
 
-#: .\quiz\pages.py:399
+#: .\quiz\pages.py:401
 msgid "Points"
 msgstr "In Punkten"
 
 #: .\quiz\templates\quiz\End_attempt1.html:9
 #: .\quiz\templates\quiz\End_attempt2.html:9
-#: .\quiz\templates\quiz\End_q1.html:9 .\quiz\templates\quiz\End_q2.html:9
-#: .\quiz\templates\quiz\End_q3.html:9 .\quiz\templates\quiz\End_q4.html:9
-#: .\quiz\templates\quiz\End_q5.html:9 .\quiz\templates\quiz\End_q6.html:9
 msgid "Ineligible to participate"
 msgstr "Leider endet die Simulation hier für Sie"
 
 #: .\quiz\templates\quiz\End_attempt1.html:12
 #: .\quiz\templates\quiz\End_attempt2.html:12
-#: .\quiz\templates\quiz\End_q1.html:12 .\quiz\templates\quiz\End_q2.html:12
-#: .\quiz\templates\quiz\End_q3.html:12 .\quiz\templates\quiz\End_q4.html:12
-#: .\quiz\templates\quiz\End_q5.html:12 .\quiz\templates\quiz\End_q6.html:12
 msgid ""
 "Unfortunately, you did not answer all the questions of the quiz correctly.\n"
 "            The simulation requires that subjects understand its basic "
@@ -135,16 +129,8 @@ msgstr ""
 
 #: .\quiz\templates\quiz\End_attempt1.html:18
 #: .\quiz\templates\quiz\End_attempt2.html:18
-#: .\quiz\templates\quiz\End_q1.html:18 .\quiz\templates\quiz\End_q2.html:18
-#: .\quiz\templates\quiz\End_q3.html:18 .\quiz\templates\quiz\End_q4.html:18
-#: .\quiz\templates\quiz\End_q5.html:18 .\quiz\templates\quiz\End_q6.html:22
 msgid "Finish"
 msgstr "Fertig"
-
-#: .\quiz\templates\quiz\End_q6.html:19
-msgid "You will earn your basic participation fee after clicking on Finish."
-msgstr ""
-"Sie erhalten Ihre Grundvergütung nachdem Sie auf Beenden geklickt haben."
 
 #: .\quiz\templates\quiz\Quiz_borrow.html:15
 #: .\quiz\templates\quiz\Quiz_save.html:15
@@ -204,8 +190,6 @@ msgstr ""
 "Einkommen wird entweder hoch oder tief sein, wie die Tabelle unten zeigt."
 
 #: .\quiz\templates\quiz\Quiz_borrow.html:60
-#: .\quiz\templates\quiz\Quiz_q2_borrow.html:36
-#: .\quiz\templates\quiz\Quiz_q2_save.html:36
 #: .\quiz\templates\quiz\Quiz_retry.html:45
 #: .\quiz\templates\quiz\Quiz_retry.html:100
 #: .\quiz\templates\quiz\Quiz_save.html:60
@@ -213,8 +197,6 @@ msgid "Period"
 msgstr "Periode"
 
 #: .\quiz\templates\quiz\Quiz_borrow.html:61
-#: .\quiz\templates\quiz\Quiz_q2_borrow.html:37
-#: .\quiz\templates\quiz\Quiz_q2_save.html:37
 #: .\quiz\templates\quiz\Quiz_retry.html:46
 #: .\quiz\templates\quiz\Quiz_retry.html:101
 #: .\quiz\templates\quiz\Quiz_save.html:61
@@ -222,8 +204,6 @@ msgid "Low income (points)"
 msgstr "Tiefes Einkommen (in Punkten)"
 
 #: .\quiz\templates\quiz\Quiz_borrow.html:62
-#: .\quiz\templates\quiz\Quiz_q2_borrow.html:38
-#: .\quiz\templates\quiz\Quiz_q2_save.html:38
 #: .\quiz\templates\quiz\Quiz_retry.html:47
 #: .\quiz\templates\quiz\Quiz_retry.html:102
 #: .\quiz\templates\quiz\Quiz_save.html:62
@@ -277,8 +257,8 @@ msgstr ""
 msgid ""
 "For each period in your life, we calculate your balance (in points):\n"
 "        <br>\n"
-"        <b>$$ \\text{End Balance}=\\text{Start Balance}+\\text{Income}-\\text"
-"{Spending} $$</b>"
+"        <b>$$ \\text{End Balance}=\\text{Start Balance}+\\text{Income}-"
+"\\text{Spending} $$</b>"
 msgstr ""
 "Für jede Periode Ihres simulierten Lebens berechnen wir Ihr Guthaben (in "
 "Punkten) wie folgt:\n"
@@ -354,179 +334,44 @@ msgstr ""
 "die Sie in dem gewählten Leben gesammelt haben, ist Ihre zusätzliche "
 "Vergütung."
 
-#: .\quiz\templates\quiz\Quiz_q1.html:15
-#: .\quiz\templates\quiz\Quiz_q2_borrow.html:15
-#: .\quiz\templates\quiz\Quiz_q2_save.html:15
-#: .\quiz\templates\quiz\Quiz_q3.html:15 .\quiz\templates\quiz\Quiz_q4.html:15
-#: .\quiz\templates\quiz\Quiz_q5.html:15 .\quiz\templates\quiz\Quiz_q6.html:19
 #: .\quiz\templates\quiz\Quiz_retry.html:15
 msgid "Quiz: try again"
-msgstr "Quiz: zweiter Durchlauf"
-
-#: .\quiz\templates\quiz\Quiz_q1.html:17
-#: .\quiz\templates\quiz\Quiz_q2_borrow.html:17
-#: .\quiz\templates\quiz\Quiz_q2_save.html:17
-#: .\quiz\templates\quiz\Quiz_q3.html:17 .\quiz\templates\quiz\Quiz_q4.html:17
-#: .\quiz\templates\quiz\Quiz_q5.html:17 .\quiz\templates\quiz\Quiz_q6.html:21
-msgid ""
-"Please answer the question again, before advancing to the live round. There "
-"is a hint below."
-msgstr ""
-"Bitte beantworten Sie die Fragen noch einmal, bevor Sie in die Live-Runde "
-"kommen. Unten finden Sie einen Hinweis."
-
-#: .\quiz\templates\quiz\Quiz_q1.html:22
-msgid ""
-"Hint: <br>\n"
-"    In this game, you will make financial decisions during a simulated life. "
-"Each life consists of 10 periods.\n"
-"        You will have 4 lives."
-msgstr ""
-"Hinweis: <br>\n"
-"    In diesem Spiel werden Sie finanzielle Entscheidungen während eines "
-"simulierten Lebens treffen. Jedes Leben besteht aus 10 Perioden. Sie werden "
-"4 Leben haben."
-
-#: .\quiz\templates\quiz\Quiz_q2_borrow.html:22
-#: .\quiz\templates\quiz\Quiz_q2_save.html:22
-msgid ""
-"Hint: <br>\n"
-"        In each period, you will earn Income (represented in points).\n"
-"        This income can be high or low as shown in the table below."
-msgstr ""
-"Hinweis: <br>\n"
-"        In jeder Periode werden Sie ein Einkommen (in Punkten) erhalten. "
-"Dieses Einkommen wird entweder hoch oder tief sein, wie die Tabelle unten "
-"zeigt."
-
-#: .\quiz\templates\quiz\Quiz_q3.html:22
-msgid ""
-"Hint: <br>\n"
-"    In each period of your life, you will decide how much to spend (in "
-"points).\n"
-"        This <b>Spending</b> (in points), will buy you Eurocent Rewards "
-"according to the blue line in the graph below."
-msgstr ""
-"Hinweis: <br>\n"
-"    In jeder Periode Ihres Lebens werden Sie entscheiden, wie viele Punkte "
-"Sie ausgeben wollen. Ihre <b>Ausgaben</b> (in Punkten) in einer Periode "
-"bestimmen Ihre <b>Belohnung</b> (in Eurocents) für diese Periode wie die "
-"blaue Kurve unten zeigt."
-
-#: .\quiz\templates\quiz\Quiz_q4.html:22
-msgid ""
-"Hint: <br>\n"
-"    For each of your lives, we sum the <b>Eurocent Rewards</b> over the 10 "
-"periods.\n"
-"        At the end of the Investment Game, the computer will randomly choose "
-"one of your lives.\n"
-"        The <b>Eurocent Rewards</b> that you have gathered in the selected "
-"life, will be paid as an additional compensation."
-msgstr ""
-"Hinweis: <br>\n"
-"    Addieren wir zunächst für jedes Ihrer Leben die <b>Eurocent-Belohnungen</"
-"b> über die 10 Perioden. Am Ende des Investitionsspiels lassen wir den "
-"Computer nach dem Zufallsprinzip eines Ihrer Leben auswählen. Die "
-"<b>Eurocent-Belohnung</b>, die Sie in dem gewählten Leben gesammelt haben, "
-"ist Ihre zusätzliche Vergütung."
-
-#: .\quiz\templates\quiz\Quiz_q5.html:22
-msgid ""
-"Hint 1: <br>\n"
-"    Whether you get a high or a low income is decided by the computer as "
-"illustrated below.\n"
-"    The chances that a high or a low income is selected are equal."
-msgstr ""
-"Hinweis 1: <br>\n"
-"    Ob Sie in einer Periode ein hohes oder ein tiefes Einkommen erhalten, "
-"entscheidet der Computer (siehe Darstellung unten). Die Chancen, dass Sie "
-"ein tiefes oder ein hohes Einkommen zugeteilt bekommen, sind gleich hoch."
-
-#: .\quiz\templates\quiz\Quiz_q5.html:87
-msgid ""
-"Hint 2:\n"
-"        If at the end of your life (period 10), if your <b>End Balance</b> "
-"is negative even with Spending=0 in this period,\n"
-"        your <b>Eurocent Rewards</b> in this period will be negative (see "
-"graph below)."
-msgstr ""
-"Hinweis 2:\n"
-"        Wenn in der letzten Periode (Periode 10) Ihr <b>Endguthaben</b> "
-"<b>negativ</b> ist, wird Ihre <b>Belohnung</b> für diese Periode <b>negativ</"
-"b> sein (siehe Abbildung unten), auch wenn Ihre <b>Ausgaben</b> in dieser "
-"Periode 0 sind."
-
-#: .\quiz\templates\quiz\Quiz_q6.html:26
-msgid ""
-"Hint: <br>\n"
-"    For each period in your life, we calculate your balance (in points):\n"
-"    <br>\n"
-"    <b>$$ \\text{End Balance}=\\text{Start Balance}+\\text{Income}-\\text"
-"{Spending} $$</b>"
-msgstr ""
-"Hinweis: <br>\n"
-"    Für jede Periode Ihres simulierten Lebens berechnen wir Ihr Guthaben (in "
-"Punkten) wie folgt:\n"
-"    <br>\n"
-"    <b>$$ \\text{Endguthaben}=\\text{Startguthaben plus Einkommen minus "
-"Ausgaben} $$</b>"
+msgstr "Quiz: zweiter Versuch"
 
 #: .\quiz\templates\quiz\Quiz_retry.html:17
-#, fuzzy
-#| msgid ""
-#| "Please answer the question again, before advancing to the live round. "
-#| "There is a hint below."
 msgid ""
 "Please answer correctly the question(s) again, before advancing to the live "
 "round.\n"
 "        There is a hint below."
 msgstr ""
-"Bitte beantworten Sie die Fragen noch einmal, bevor Sie in die Live-Runde "
-"kommen. Unten finden Sie einen Hinweis."
+"Bitte beantworten Sie die Fragen noch einmal, bevor Sie in die wirkliche "
+"Runde kommen. Unten finden Sie einen Hinweis."
 
 #: .\quiz\templates\quiz\Quiz_retry.html:24
-#, fuzzy
-#| msgid ""
-#| "Hint: <br>\n"
-#| "    In this game, you will make financial decisions during a simulated "
-#| "life. Each life consists of 10 periods.\n"
-#| "        You will have 4 lives."
 msgid ""
 "Hint of question 1: <br>\n"
 "        In this game, you will make financial decisions during a simulated "
 "life. Each life consists of 10 periods.\n"
 "            You will have 4 lives."
 msgstr ""
-"Hinweis: <br>\n"
+"Hinweis zu Frage 1: <br>\n"
 "    In diesem Spiel werden Sie finanzielle Entscheidungen während eines "
 "simulierten Lebens treffen. Jedes Leben besteht aus 10 Perioden. Sie werden "
 "4 Leben haben."
 
 #: .\quiz\templates\quiz\Quiz_retry.html:31
 #: .\quiz\templates\quiz\Quiz_retry.html:86
-#, fuzzy
-#| msgid ""
-#| "Hint: <br>\n"
-#| "        In each period, you will earn Income (represented in points).\n"
-#| "        This income can be high or low as shown in the table below."
 msgid ""
 "Hint of question 2: <br>\n"
 "            In each period, you will earn Income (represented in points).\n"
 "            This income can be high or low as shown in the table below."
 msgstr ""
-"Hinweis: <br>\n"
+"Hinweis zu Frage 2: <br>\n"
 "        In jeder Periode werden Sie ein Einkommen (in Punkten) erhalten. "
 "Dieses Einkommen wird entweder hoch oder tief sein, wie die Tabelle unten "
 "zeigt."
 
 #: .\quiz\templates\quiz\Quiz_retry.html:141
-#, fuzzy
-#| msgid ""
-#| "Hint: <br>\n"
-#| "    In each period of your life, you will decide how much to spend (in "
-#| "points).\n"
-#| "        This <b>Spending</b> (in points), will buy you Eurocent Rewards "
-#| "according to the blue line in the graph below."
 msgid ""
 "Hint of question 3: <br>\n"
 "        In each period of your life, you will decide how much to spend (in "
@@ -534,22 +379,13 @@ msgid ""
 "            This <b>Spending</b> (in points), will buy you Eurocent Rewards "
 "according to the blue line in the graph below."
 msgstr ""
-"Hinweis: <br>\n"
+"Hinweis zu Frage 3: <br>\n"
 "    In jeder Periode Ihres Lebens werden Sie entscheiden, wie viele Punkte "
 "Sie ausgeben wollen. Ihre <b>Ausgaben</b> (in Punkten) in einer Periode "
 "bestimmen Ihre <b>Belohnung</b> (in Eurocents) für diese Periode wie die "
 "blaue Kurve unten zeigt."
 
-#: .\quiz\templates\quiz\Quiz_retry.html:150
-#, fuzzy
-#| msgid ""
-#| "Hint: <br>\n"
-#| "    For each of your lives, we sum the <b>Eurocent Rewards</b> over the "
-#| "10 periods.\n"
-#| "        At the end of the Investment Game, the computer will randomly "
-#| "choose one of your lives.\n"
-#| "        The <b>Eurocent Rewards</b> that you have gathered in the "
-#| "selected life, will be paid as an additional compensation."
+#: .\quiz\templates\quiz\Quiz_retry.html:160
 msgid ""
 "Hint of question 4: <br>\n"
 "        For each of your lives, we sum the <b>Eurocent Rewards</b> over the "
@@ -559,39 +395,26 @@ msgid ""
 "            The <b>Eurocent Rewards</b> that you have gathered in the "
 "selected life, will be paid as an additional compensation."
 msgstr ""
-"Hinweis: <br>\n"
+"Hinweis zu Frage 4: <br>\n"
 "    Addieren wir zunächst für jedes Ihrer Leben die <b>Eurocent-Belohnungen</"
 "b> über die 10 Perioden. Am Ende des Investitionsspiels lassen wir den "
 "Computer nach dem Zufallsprinzip eines Ihrer Leben auswählen. Die "
 "<b>Eurocent-Belohnung</b>, die Sie in dem gewählten Leben gesammelt haben, "
 "ist Ihre zusätzliche Vergütung."
 
-#: .\quiz\templates\quiz\Quiz_retry.html:158
-#, fuzzy
-#| msgid ""
-#| "Hint 1: <br>\n"
-#| "    Whether you get a high or a low income is decided by the computer as "
-#| "illustrated below.\n"
-#| "    The chances that a high or a low income is selected are equal."
+#: .\quiz\templates\quiz\Quiz_retry.html:169
 msgid ""
 "Hint 1 of question 5: <br>\n"
 "        Whether you get a high or a low income is decided by the computer as "
 "illustrated below.\n"
 "        The chances that a high or a low income is selected are equal."
 msgstr ""
-"Hinweis 1: <br>\n"
+"Hinweis 1 zu Frage 5: <br>\n"
 "    Ob Sie in einer Periode ein hohes oder ein tiefes Einkommen erhalten, "
 "entscheidet der Computer (siehe Darstellung unten). Die Chancen, dass Sie "
 "ein tiefes oder ein hohes Einkommen zugeteilt bekommen, sind gleich hoch."
 
-#: .\quiz\templates\quiz\Quiz_retry.html:223
-#, fuzzy
-#| msgid ""
-#| "Hint 2:\n"
-#| "        If at the end of your life (period 10), if your <b>End Balance</"
-#| "b> is negative even with Spending=0 in this period,\n"
-#| "        your <b>Eurocent Rewards</b> in this period will be negative (see "
-#| "graph below)."
+#: .\quiz\templates\quiz\Quiz_retry.html:234
 msgid ""
 "Hint 2 of question 5:\n"
 "            If at the end of your life (period 10), if your <b>End Balance</"
@@ -599,34 +422,126 @@ msgid ""
 "            your <b>Eurocent Rewards</b> in this period will be negative "
 "(see graph below)."
 msgstr ""
-"Hinweis 2:\n"
+"Hinweis 2 zu Frage 5:\n"
 "        Wenn in der letzten Periode (Periode 10) Ihr <b>Endguthaben</b> "
 "<b>negativ</b> ist, wird Ihre <b>Belohnung</b> für diese Periode <b>negativ</"
 "b> sein (siehe Abbildung unten), auch wenn Ihre <b>Ausgaben</b> in dieser "
 "Periode 0 sind."
 
-#: .\quiz\templates\quiz\Quiz_retry.html:232
-#, fuzzy
-#| msgid ""
-#| "Hint: <br>\n"
-#| "    For each period in your life, we calculate your balance (in points):\n"
-#| "    <br>\n"
-#| "    <b>$$ \\text{End Balance}=\\text{Start Balance}+\\text{Income}-\\text"
-#| "{Spending} $$</b>"
+#: .\quiz\templates\quiz\Quiz_retry.html:254
 msgid ""
-"Hint: <br>\n"
+"Hint of question 6: <br>\n"
 "        For each period in your life, we calculate your balance (in "
 "points):\n"
 "        <br>\n"
-"        <b>$$ \\text{End Balance}=\\text{Start Balance}+\\text{Income}-\\text"
-"{Spending} $$</b>"
+"        <b>$$ \\text{End Balance}=\\text{Start Balance}+\\text{Income}-"
+"\\text{Spending} $$</b>"
 msgstr ""
-"Hinweis: <br>\n"
+"Hinweis zu Frage 6: <br>\n"
 "    Für jede Periode Ihres simulierten Lebens berechnen wir Ihr Guthaben (in "
 "Punkten) wie folgt:\n"
 "    <br>\n"
 "    <b>$$ \\text{Endguthaben}=\\text{Startguthaben plus Einkommen minus "
 "Ausgaben} $$</b>"
+
+#~ msgid "You will earn your basic participation fee after clicking on Finish."
+#~ msgstr ""
+#~ "Sie erhalten Ihre Grundvergütung nachdem Sie auf Beenden geklickt haben."
+
+#~ msgid ""
+#~ "Please answer the question again, before advancing to the live round. "
+#~ "There is a hint below."
+#~ msgstr ""
+#~ "Bitte beantworten Sie die Fragen noch einmal, bevor Sie in die Live-Runde "
+#~ "kommen. Unten finden Sie einen Hinweis."
+
+#~ msgid ""
+#~ "Hint: <br>\n"
+#~ "    In this game, you will make financial decisions during a simulated "
+#~ "life. Each life consists of 10 periods.\n"
+#~ "        You will have 4 lives."
+#~ msgstr ""
+#~ "Hinweis: <br>\n"
+#~ "    In diesem Spiel werden Sie finanzielle Entscheidungen während eines "
+#~ "simulierten Lebens treffen. Jedes Leben besteht aus 10 Perioden. Sie "
+#~ "werden 4 Leben haben."
+
+#~ msgid ""
+#~ "Hint: <br>\n"
+#~ "        In each period, you will earn Income (represented in points).\n"
+#~ "        This income can be high or low as shown in the table below."
+#~ msgstr ""
+#~ "Hinweis: <br>\n"
+#~ "        In jeder Periode werden Sie ein Einkommen (in Punkten) erhalten. "
+#~ "Dieses Einkommen wird entweder hoch oder tief sein, wie die Tabelle unten "
+#~ "zeigt."
+
+#~ msgid ""
+#~ "Hint: <br>\n"
+#~ "    In each period of your life, you will decide how much to spend (in "
+#~ "points).\n"
+#~ "        This <b>Spending</b> (in points), will buy you Eurocent Rewards "
+#~ "according to the blue line in the graph below."
+#~ msgstr ""
+#~ "Hinweis: <br>\n"
+#~ "    In jeder Periode Ihres Lebens werden Sie entscheiden, wie viele "
+#~ "Punkte Sie ausgeben wollen. Ihre <b>Ausgaben</b> (in Punkten) in einer "
+#~ "Periode bestimmen Ihre <b>Belohnung</b> (in Eurocents) für diese Periode "
+#~ "wie die blaue Kurve unten zeigt."
+
+#~ msgid ""
+#~ "Hint: <br>\n"
+#~ "    For each of your lives, we sum the <b>Eurocent Rewards</b> over the "
+#~ "10 periods.\n"
+#~ "        At the end of the Investment Game, the computer will randomly "
+#~ "choose one of your lives.\n"
+#~ "        The <b>Eurocent Rewards</b> that you have gathered in the "
+#~ "selected life, will be paid as an additional compensation."
+#~ msgstr ""
+#~ "Hinweis: <br>\n"
+#~ "    Addieren wir zunächst für jedes Ihrer Leben die <b>Eurocent-"
+#~ "Belohnungen</b> über die 10 Perioden. Am Ende des Investitionsspiels "
+#~ "lassen wir den Computer nach dem Zufallsprinzip eines Ihrer Leben "
+#~ "auswählen. Die <b>Eurocent-Belohnung</b>, die Sie in dem gewählten Leben "
+#~ "gesammelt haben, ist Ihre zusätzliche Vergütung."
+
+#~ msgid ""
+#~ "Hint 1: <br>\n"
+#~ "    Whether you get a high or a low income is decided by the computer as "
+#~ "illustrated below.\n"
+#~ "    The chances that a high or a low income is selected are equal."
+#~ msgstr ""
+#~ "Hinweis 1: <br>\n"
+#~ "    Ob Sie in einer Periode ein hohes oder ein tiefes Einkommen erhalten, "
+#~ "entscheidet der Computer (siehe Darstellung unten). Die Chancen, dass Sie "
+#~ "ein tiefes oder ein hohes Einkommen zugeteilt bekommen, sind gleich hoch."
+
+#~ msgid ""
+#~ "Hint 2:\n"
+#~ "        If at the end of your life (period 10), if your <b>End Balance</"
+#~ "b> is negative even with Spending=0 in this period,\n"
+#~ "        your <b>Eurocent Rewards</b> in this period will be negative (see "
+#~ "graph below)."
+#~ msgstr ""
+#~ "Hinweis 2:\n"
+#~ "        Wenn in der letzten Periode (Periode 10) Ihr <b>Endguthaben</b> "
+#~ "<b>negativ</b> ist, wird Ihre <b>Belohnung</b> für diese Periode "
+#~ "<b>negativ</b> sein (siehe Abbildung unten), auch wenn Ihre <b>Ausgaben</"
+#~ "b> in dieser Periode 0 sind."
+
+#~ msgid ""
+#~ "Hint: <br>\n"
+#~ "    For each period in your life, we calculate your balance (in points):\n"
+#~ "    <br>\n"
+#~ "    <b>$$ \\text{End Balance}=\\text{Start Balance}+\\text{Income}-"
+#~ "\\text{Spending} $$</b>"
+#~ msgstr ""
+#~ "Hinweis: <br>\n"
+#~ "    Für jede Periode Ihres simulierten Lebens berechnen wir Ihr Guthaben "
+#~ "(in Punkten) wie folgt:\n"
+#~ "    <br>\n"
+#~ "    <b>$$ \\text{Endguthaben}=\\text{Startguthaben plus Einkommen minus "
+#~ "Ausgaben} $$</b>"
 
 #~ msgid "Before you advance to the live game, you need to complete a quiz."
 #~ msgstr ""
