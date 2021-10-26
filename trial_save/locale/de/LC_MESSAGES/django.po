@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-19 21:46+0300\n"
+"POT-Creation-Date: 2021-10-26 18:24+0300\n"
 "PO-Revision-Date: 2021-10-15 22:56+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -28,6 +28,18 @@ msgstr "Bitte entscheiden Sie sich für den Betrag, den Sie ausgeben möchten."
 #: .\trial_save\templates\trial_save\End.html:15
 msgid "Before you advance to the live round, you need to complete a quiz."
 msgstr "Bevor Sie in die Live-Runde kommen, müssen Sie ein Quiz absolvieren."
+
+#: .\trial_save\templates\trial_save\End.html:19
+msgid ""
+"You will be removed from the game, and earn no compensation,\n"
+"            if you give two or more wrong answers."
+msgstr ""
+
+#: .\trial_save\templates\trial_save\End.html:23
+msgid ""
+"If you need to read the instructions again,\n"
+"        you will find them at the bottom of the page with the test questions."
+msgstr ""
 
 #: .\trial_save\templates\trial_save\Period1.html:11
 #: .\trial_save\templates\trial_save\Period10.html:11

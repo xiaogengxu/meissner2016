@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-19 21:46+0300\n"
+"POT-Creation-Date: 2021-10-26 18:24+0300\n"
 "PO-Revision-Date: 2021-10-15 23:27+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -18,15 +18,15 @@ msgstr ""
 "Language: de\n"
 "X-Generator: Poedit 2.4.2\n"
 
-#: .\result\pages.py:74
+#: .\result\pages.py:75
 msgid "in 1 month"
 msgstr "in 1 Monaten"
 
-#: .\result\pages.py:78
+#: .\result\pages.py:79
 msgid "in 2 months"
 msgstr "in 2 Monaten"
 
-#: .\result\pages.py:82
+#: .\result\pages.py:83
 msgid "in 3 months"
 msgstr "in 3 Monaten"
 
@@ -77,8 +77,8 @@ msgstr ""
 "insgesamt %(total1)s Euro betragen. Dieser Betrag wird Ihnen %(pay_time)s "
 "gutgeschrieben. Sie müssen dafür nichts mehr tun."
 
-#: .\result\templates\result\Result.html:34
-#: .\result\templates\result\Result_nodelay.html:28
+#: .\result\templates\result\Result.html:36
+#: .\result\templates\result\Result_nodelay.html:30
 #: .\result\templates\result\Timeout.html:22
 msgid "Finish"
 msgstr "Fertig"
